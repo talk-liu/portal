@@ -1,0 +1,7 @@
+{
+  "name": "graphql-app",
+  "dependencies": {
+    "egg-graphql": "^2.1.0",
+    "graphql": "^0.13.2"
+  }
+}

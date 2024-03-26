@@ -1,0 +1,18 @@
+type Market {
+    id: String
+    ask_fixed: Int
+    at: Date
+    base_unit: String
+    bid_fixed: Int
+    buy: String
+    change: String
+    funds: String
+    high: String
+    last: String
+    low: String
+    name: String
+    open: Float
+    quote_unit: String
+    sell: String
+    volume: String
+}

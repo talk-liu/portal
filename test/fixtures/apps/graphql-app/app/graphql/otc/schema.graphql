@@ -1,0 +1,4 @@
+type Otc {
+    otc_opened: Int
+    usdt_cny_exchange_rate: Float
+}

@@ -1,0 +1,4 @@
+type FavoriteMarket {
+    fm: [String!]
+    market: String
+}

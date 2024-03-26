@@ -1,0 +1,12 @@
+type PlatformProfit {
+    at_profit_rate: String
+    current_profit: Object
+    distributed: Object
+    members_seven_days_at: String
+    platform_seven_days_at: String
+    total_at: String
+    total_at_delivered: String
+    total_profit: Object
+    unit_at_profit: String
+    yesterday_profit: Object
+}

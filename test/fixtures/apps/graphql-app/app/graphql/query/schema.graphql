@@ -1,0 +1,11 @@
+type Query {
+    member: Member
+    market(id: String!): Market!
+    markets: [Market!]
+    favoriteMarket: FavoriteMarket
+    income: Income
+    platformProfit: PlatformProfit
+    computingPower: ComputingPower
+    kline(markets: String!, limit: Int, period: Int): Kline
+    otc: Otc
+}

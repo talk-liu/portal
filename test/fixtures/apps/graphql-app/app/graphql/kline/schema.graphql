@@ -1,0 +1,6 @@
+type Kline {
+    markets: String!
+    limit: Int
+    period: Int
+    result: Object!
+}

@@ -1,0 +1,5 @@
+type ComputingPower {
+    count: Int
+    estimated: Int
+    blocks: [Object!]
+}

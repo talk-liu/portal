@@ -1,0 +1,10 @@
+type Income {
+    at_ratio: String
+    finished_cache: String
+    frozen_at: Object
+    last_at_income: Object
+    seven_days_at: Object
+    total_at: Object
+    total_profit: Object
+    yesterday_profit: Object
+}

@@ -1,0 +1,5 @@
+type Mutation {
+    #favoriteMarket
+    updateFavoriteMarket(market: String) : FavoriteMarket
+    deleteFavoriteMarket(market: String) : FavoriteMarket
+}
