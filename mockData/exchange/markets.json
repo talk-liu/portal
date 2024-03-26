@@ -1,0 +1,25 @@
+{
+  "url":"v1/option/markets",
+  "comment":"获取每天最新交易对",
+  "data":[{
+    "code":"BTCUSD2018_CALL_AT",
+    "name":"name",
+    "base_unit":"BTCUSD2018_CALL",
+    "quota_unit":"AT",
+    "volume":"2.0",
+    "open_price":"20.0",
+    "lastest_price":"20.0",
+    "change":"20%",
+    "closed_date":"2018"
+  },{
+    "code":"BTCUSD2018_PUT_AT",
+    "name":"name",
+    "base_unit":"BTCUSD2018_PUT",
+    "quota_unit":"AT",
+    "volume":"2.0",
+    "open_price":"20.0",
+    "lastest_price":"20.0",
+    "change":"20%",
+    "closed_date":"2018"
+  }]
+}

@@ -1,0 +1,17 @@
+2022-06-24 15:49:05,861 INFO 14687 [egg-logrotator] app logger reload: got log-reload message
+2022-06-25 06:21:35,012 WARN 14687 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-06-25 06:21:35,020 WARN 14687 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-25 07:45:12,893 WARN 14687 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-25 22:15:13,169 WARN 14687 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-26 01:05:29,003 WARN 14687 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-06-26 01:05:29,016 WARN 14687 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-26 08:08:22,571 WARN 14687 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-26 08:24:06,627 WARN 14687 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-26 19:13:52,117 WARN 14687 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-06-26 19:13:52,117 WARN 14687 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-26 20:35:23,656 WARN 14687 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-27 07:30:11,182 WARN 14687 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-27 10:27:08,542 WARN 14687 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-27 15:52:41,606 INFO 14687 [egg-logrotator] clean all log before 31 days
+2022-06-27 15:52:42,599 INFO 14687 [egg-logrotator] broadcast log-reload
+2022-06-27 15:52:42,600 INFO 14687 [egg-logrotator] rotate files success by DayRotator, files ["/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/common-error.log -> /Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/common-error.log.2022-06-26","/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/portal-node-web.log -> /Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/portal-node-web.log.2022-06-26","/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/egg-web.log -> /Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/egg-web.log.2022-06-26","/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/egg-schedule.log -> /Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/egg-schedule.log.2022-06-26","/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/egg-agent.log -> /Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/egg-agent.log.2022-06-26"]

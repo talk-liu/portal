@@ -1,0 +1,16 @@
+{
+  "url": "v1/option/option_accounts",
+  "comment": "期权账户详情（我的资产中使用，不用传参）",
+  "data": [
+    {
+      "option_currency": {
+        "code": "AT",
+        "readable_name": "Riostox Token",
+        "icon_url": ""
+      },
+      "amount": 1000,
+      "balance": 200,
+      "locked": 800
+    }
+  ]
+}

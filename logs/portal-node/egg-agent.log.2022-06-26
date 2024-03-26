@@ -1,0 +1,101 @@
+2022-06-24 15:49:05,868 INFO 14685 [egg-logrotator] agent logger reload: got log-reload message
+2022-06-25 06:21:35,017 ERROR 14685 nodejs.ClusterClientNoResponseError: client no response in 43229418ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 14685
+hostname: talkdeMacBook-Pro.local
+
+2022-06-25 07:45:12,895 ERROR 14685 nodejs.ClusterClientNoResponseError: client no response in 5017817ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 14685
+hostname: talkdeMacBook-Pro.local
+
+2022-06-25 22:15:13,171 ERROR 14685 nodejs.ClusterClientNoResponseError: client no response in 52200260ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 14685
+hostname: talkdeMacBook-Pro.local
+
+2022-06-26 01:05:29,013 ERROR 14685 nodejs.ClusterClientNoResponseError: client no response in 10215812ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 14685
+hostname: talkdeMacBook-Pro.local
+
+2022-06-26 08:08:22,572 ERROR 14685 nodejs.ClusterClientNoResponseError: client no response in 25353190ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 14685
+hostname: talkdeMacBook-Pro.local
+
+2022-06-26 08:24:06,628 ERROR 14685 nodejs.ClusterClientNoResponseError: client no response in 944052ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 14685
+hostname: talkdeMacBook-Pro.local
+
+2022-06-26 19:13:52,118 ERROR 14685 nodejs.ClusterClientNoResponseError: client no response in 38385418ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 14685
+hostname: talkdeMacBook-Pro.local
+
+2022-06-26 20:35:23,656 ERROR 14685 nodejs.ClusterClientNoResponseError: client no response in 4891535ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 14685
+hostname: talkdeMacBook-Pro.local
+
+2022-06-27 07:30:11,157 ERROR 14685 nodejs.ClusterClientNoResponseError: client no response in 39287489ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 14685
+hostname: talkdeMacBook-Pro.local
+
+2022-06-27 10:27:08,542 ERROR 14685 nodejs.ClusterClientNoResponseError: client no response in 10617355ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 14685
+hostname: talkdeMacBook-Pro.local
+

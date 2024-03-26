@@ -1,0 +1,27 @@
+2022-07-01 14:02:12,680 ERROR 14687 [-/127.0.0.1/-/292ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] GeneralRequest catch request error {}
+2022-07-01 14:02:12,680 ERROR 14687 [-/127.0.0.1/-/293ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] GeneralRequest error ticker {"error":{"message":"apiRequest error 502 <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n</body>\r\n</html>\r\n Unexpected token < in JSON at position 0"}} {}
+2022-07-01 14:02:12,680 ERROR 14687 [-/127.0.0.1/-/293ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] schedule market existed Error: apiRequest error 502 <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+</body>
+</html>
+ Unexpected token < in JSON at position 0
+2022-07-01 18:28:13,370 ERROR 14687 [-/127.0.0.1/-/235ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] GeneralRequest catch request error {}
+2022-07-01 18:28:13,370 ERROR 14687 [-/127.0.0.1/-/235ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] GeneralRequest error ticker {"error":{"message":"apiRequest error 502 <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n</body>\r\n</html>\r\n Unexpected token < in JSON at position 0"}} {}
+2022-07-01 18:28:13,371 ERROR 14687 [-/127.0.0.1/-/236ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] schedule market existed Error: apiRequest error 502 <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+</body>
+</html>
+ Unexpected token < in JSON at position 0
+2022-07-02 06:39:52,237 ERROR 14687 [-/127.0.0.1/-/231ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] GeneralRequest catch request error {"cause":{"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"mapi.riostox.com","host":"mapi.riostox.com","port":443},"isOperational":true,"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"mapi.riostox.com","host":"mapi.riostox.com","port":443}
+2022-07-02 06:39:52,237 ERROR 14687 [-/127.0.0.1/-/231ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] GeneralRequest error ticker {"error":{"message":"getaddrinfo ENOTFOUND mapi.riostox.com mapi.riostox.com:443"}} {}
+2022-07-02 06:39:52,237 ERROR 14687 [-/127.0.0.1/-/231ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] schedule market existed Error: getaddrinfo ENOTFOUND mapi.riostox.com mapi.riostox.com:443
+2022-07-03 07:00:06,731 ERROR 14687 [-/127.0.0.1/-/227ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] GeneralRequest catch request error {"cause":{"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"mapi.riostox.com","host":"mapi.riostox.com","port":443},"isOperational":true,"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"mapi.riostox.com","host":"mapi.riostox.com","port":443}
+2022-07-03 07:00:06,731 ERROR 14687 [-/127.0.0.1/-/227ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] GeneralRequest error ticker {"error":{"message":"getaddrinfo ENOTFOUND mapi.riostox.com mapi.riostox.com:443"}} {}
+2022-07-03 07:00:06,732 ERROR 14687 [-/127.0.0.1/-/227ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] schedule market existed Error: getaddrinfo ENOTFOUND mapi.riostox.com mapi.riostox.com:443
+2022-07-03 12:13:40,188 ERROR 14687 [-/127.0.0.1/-/47ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] GeneralRequest catch request error {"cause":{"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"mapi.riostox.com","host":"mapi.riostox.com","port":443},"isOperational":true,"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"mapi.riostox.com","host":"mapi.riostox.com","port":443}
+2022-07-03 12:13:40,189 ERROR 14687 [-/127.0.0.1/-/48ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] GeneralRequest error ticker {"error":{"message":"getaddrinfo ENOTFOUND mapi.riostox.com mapi.riostox.com:443"}} {}
+2022-07-03 12:13:40,190 ERROR 14687 [-/127.0.0.1/-/50ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] schedule market existed Error: getaddrinfo ENOTFOUND mapi.riostox.com mapi.riostox.com:443

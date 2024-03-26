@@ -1,0 +1,14 @@
+{
+  "url": "v1/option/option_accounts?currency_code=BTCUSD_DAY_20180930_CALL_AT",
+  "comment": "期权账户详情（交易页使用 code 是put或者跌call）",
+  "data": {
+    "option_currency": {
+      "code": "BTC/USD_DAY_20180930_CALL_AT",
+      "readable_name": "Riostox Token",
+      "icon_url": ""
+    },
+    "amount": 1000,
+    "balance": 200,
+    "locked": 800
+  }
+}

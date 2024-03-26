@@ -1,0 +1,21 @@
+2022-06-21 15:38:49,300 INFO 14685 [egg-logrotator] agent logger reload: got log-reload message
+2022-06-22 06:13:35,842 ERROR 14685 nodejs.ClusterClientNoResponseError: client no response in 43276046ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 14685
+hostname: talkdeMacBook-Pro.local
+
+2022-06-22 10:28:40,490 ERROR 14685 nodejs.ClusterClientNoResponseError: client no response in 15304627ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 14685
+hostname: talkdeMacBook-Pro.local
+

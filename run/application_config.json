@@ -1,0 +1,2289 @@
+{
+  "config": {
+    "session": {
+      "maxAge": 86400000,
+      "key": "EGG_SESS",
+      "httpOnly": true,
+      "encrypt": true,
+      "logValue": true,
+      "overwrite": true,
+      "signed": true,
+      "autoCommit": true,
+      "encode": "<Function encode>",
+      "decode": "<Function decode>",
+      "genid": "<Function v4>"
+    },
+    "security": {
+      "domainWhiteList": [
+        "*"
+      ],
+      "protocolWhiteList": [],
+      "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
+      "csrf": {
+        "enable": false,
+        "type": "ctoken",
+        "ignoreJSON": false,
+        "useSession": false,
+        "cookieName": "csrfToken",
+        "sessionName": "csrfToken",
+        "headerName": "x-csrf-token",
+        "bodyName": "_csrf",
+        "queryName": "_csrf",
+        "refererWhiteList": [],
+        "ignore": "<Function ignore>"
+      },
+      "xframe": {
+        "enable": true,
+        "value": "SAMEORIGIN",
+        "matching": "<Function anonymous>"
+      },
+      "hsts": {
+        "enable": false,
+        "maxAge": 31536000,
+        "includeSubdomains": false
+      },
+      "dta": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "methodnoallow": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "noopen": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "nosniff": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "referrerPolicy": {
+        "enable": false,
+        "value": "no-referrer-when-downgrade"
+      },
+      "xssProtection": {
+        "enable": true,
+        "value": "1; mode=block",
+        "matching": "<Function anonymous>"
+      },
+      "csp": {
+        "enable": false,
+        "policy": {}
+      },
+      "ssrf": {
+        "ipBlackList": null,
+        "ipExceptionList": null,
+        "checkAddress": null
+      },
+      "_protocolWhiteListSet": "<Set>"
+    },
+    "helper": {
+      "shtml": {}
+    },
+    "jsonp": {
+      "limit": 50,
+      "callback": [
+        "_callback",
+        "callback"
+      ],
+      "csrf": false
+    },
+    "onerror": {
+      "errorPageUrl": "",
+      "appErrorFilter": null,
+      "templatePath": "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-onerror/lib/onerror_page.mustache"
+    },
+    "i18n": {
+      "defaultLocale": "en-US",
+      "dirs": [
+        "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-session/config/locales",
+        "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-security/config/locales",
+        "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-jsonp/config/locales",
+        "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-onerror/config/locales",
+        "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-i18n/config/locales",
+        "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-watcher/config/locales",
+        "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-schedule/config/locales",
+        "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-multipart/config/locales",
+        "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-development/config/locales",
+        "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-logrotator/config/locales",
+        "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-static/config/locales",
+        "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-view/config/locales",
+        "/Users/talk/Desktop/document/rio/exchange/portal/lib/egg-forI18/config/locales",
+        "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-graphql/config/locales",
+        "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-cors/config/locales",
+        "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-redis/config/locales",
+        "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-view-nunjucks/config/locales",
+        "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg/config/locales",
+        "/Users/talk/Desktop/document/rio/exchange/portal/config/locale"
+      ],
+      "queryField": "locale",
+      "cookieField": "locale",
+      "cookieDomain": "",
+      "cookieMaxAge": "1y",
+      "functionName": "__"
+    },
+    "watcher": {
+      "type": "development",
+      "eventSources": {
+        "default": "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-watcher/lib/event-sources/development"
+      }
+    },
+    "customLogger": {
+      "scheduleLogger": {
+        "consoleLevel": "NONE",
+        "file": "egg-schedule.log"
+      }
+    },
+    "schedule": {
+      "directory": []
+    },
+    "multipart": {
+      "mode": "file",
+      "autoFields": false,
+      "defaultCharset": "utf8",
+      "fieldNameSize": 100,
+      "fieldSize": 102400,
+      "fields": 20,
+      "fileSize": 5242880,
+      "files": 10,
+      "fileExtensions": [],
+      "whitelist": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".gif",
+        ".pdf"
+      ],
+      "allowArrayField": false,
+      "tmpdir": "/var/folders/zt/smm53qcj67g3syyrg5gs49lw0000gn/T/egg-multipart-tmp/portal-node",
+      "cleanSchedule": {
+        "cron": "0 30 4 * * *",
+        "disable": false
+      }
+    },
+    "development": {
+      "watchDirs": [],
+      "ignoreDirs": [],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false,
+      "overrideIgnore": false
+    },
+    "logrotator": {
+      "filesRotateByHour": null,
+      "hourDelimiter": "-",
+      "filesRotateBySize": null,
+      "maxFileSize": 52428800,
+      "maxFiles": 10,
+      "rotateDuration": 60000,
+      "maxDays": 31
+    },
+    "static": {
+      "prefix": "/public/",
+      "dir": "/Users/talk/Desktop/document/rio/exchange/portal/app/public",
+      "dynamic": true,
+      "preload": false,
+      "buffer": false,
+      "maxFiles": 1000
+    },
+    "view": {
+      "root": [
+        "/Users/talk/Desktop/document/rio/exchange/portal/app/view"
+      ],
+      "cache": false,
+      "defaultExtension": ".html",
+      "defaultViewEngine": "nunjucks",
+      "mapping": {
+        ".nj": "nunjucks"
+      }
+    },
+    "forI18": {
+      "ignore": "<Function ignore>"
+    },
+    "graphql": {
+      "router": "/graphql",
+      "app": true,
+      "agent": false,
+      "graphiql": false,
+      "onPreGraphQL": "<AsyncFunction onPreGraphQL>",
+      "onPreGraphiQL": "<AsyncFunction onPreGraphiQL>"
+    },
+    "cors": {
+      "credentials": true,
+      "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH",
+      "maxAge": "600",
+      "origin": "*"
+    },
+    "redis": {
+      "default": {},
+      "app": true,
+      "agent": false,
+      "supportTimeCommand": true,
+      "clients": {
+        "default": {
+          "port": 6379,
+          "password": "<String len: 0>",
+          "db": 0,
+          "host": "127.0.0.1"
+        },
+        "portal": {
+          "port": 6379,
+          "password": "<String len: 0>",
+          "db": 0,
+          "host": "127.0.0.1"
+        },
+        "kline": {
+          "port": 6379,
+          "password": "<String len: 0>",
+          "db": 1,
+          "host": "127.0.0.1"
+        }
+      }
+    },
+    "nunjucks": {
+      "autoescape": true,
+      "throwOnUndefined": false,
+      "trimBlocks": false,
+      "lstripBlocks": false,
+      "cache": false
+    },
+    "env": "local",
+    "name": "portal-node",
+    "keys": "<String len: 30>",
+    "cookies": {},
+    "proxy": true,
+    "maxIpsCount": 0,
+    "maxProxyCount": 0,
+    "protocolHeaders": "x-forwarded-proto",
+    "ipHeaders": "x-forwarded-for",
+    "hostHeaders": "",
+    "pkg": {
+      "name": "portal-node",
+      "version": "1.0.0",
+      "description": "",
+      "private": true,
+      "dependencies": {
+        "base-64": "^0.1.0",
+        "bluebird": "^3.5.4",
+        "cookie": "^0.3.1",
+        "dataloader": "^1.4.0",
+        "egg": "^2.14.1",
+        "egg-cors": "^2.1.0",
+        "egg-graphql": "^2.3.0",
+        "egg-redis": "^2.0.0",
+        "egg-scripts": "^2.8.1",
+        "egg-security": "^2.8.0",
+        "egg-view-nunjucks": "^2.2.0",
+        "graphql": "^0.12.0",
+        "lodash": "^4.17.11",
+        "memory-cache": "^0.2.0",
+        "nanoid": "^2.0.0",
+        "newrelic": "^4.8.1",
+        "node-fetch": "^2.3.0",
+        "ratelimiter": "^3.2.0",
+        "request": "^2.87.0",
+        "sendpulse-api": "^1.1.1"
+      },
+      "devDependencies": {
+        "egg-bin": "^4.8.1",
+        "egg-ci": "^1.8.0",
+        "egg-mock": "^3.14.0",
+        "eslint": "^5.2.0",
+        "eslint-config-egg": "^7.1.0",
+        "husky": "^0.14.3",
+        "lint-staged": "^8.1.0"
+      },
+      "engines": {
+        "node": ">=8.9.0"
+      },
+      "scripts": {
+        "start": "egg-scripts start --title=egg-server-portal-node",
+        "stop": "egg-scripts stop --title=egg-server-portal-node",
+        "dev": "egg-bin dev",
+        "debug": "egg-bin debug",
+        "test": "npm run lint -- --fix",
+        "test-local": "egg-bin test",
+        "cov": "egg-bin cov",
+        "lint": "eslint .",
+        "ci": "npm run lint && npm run cov"
+      },
+      "ci": {
+        "version": "8"
+      },
+      "repository": {
+        "type": "git",
+        "url": ""
+      },
+      "husky": {
+        "hooks": {
+          "pre-commit": "lint-staged"
+        }
+      },
+      "lint-staged": {
+        "*.{js}": [
+          "npm run lint",
+          "git add"
+        ]
+      },
+      "author": "",
+      "license": "MIT"
+    },
+    "baseDir": "/Users/talk/Desktop/document/rio/exchange/portal",
+    "HOME": "/Users/talk",
+    "rundir": "/Users/talk/Desktop/document/rio/exchange/portal/run",
+    "dump": {
+      "ignore": "<Set>"
+    },
+    "confusedConfigurations": {
+      "bodyparser": "bodyParser",
+      "notFound": "notfound",
+      "sitefile": "siteFile",
+      "middlewares": "middleware",
+      "httpClient": "httpclient"
+    },
+    "notfound": {
+      "pageUrl": ""
+    },
+    "siteFile": {
+      "/favicon.ico": "https://i.riostox.com/favicon.ico"
+    },
+    "bodyParser": {
+      "enable": true,
+      "encoding": "utf8",
+      "formLimit": "1mb",
+      "jsonLimit": "1mb",
+      "textLimit": "1mb",
+      "strict": true,
+      "queryString": {
+        "arrayLimit": 100,
+        "depth": 5,
+        "parameterLimit": 1000
+      },
+      "returnRawBody": true
+    },
+    "logger": {
+      "dir": "/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node",
+      "encoding": "utf8",
+      "env": "local",
+      "level": "INFO",
+      "consoleLevel": "DEBUG",
+      "disableConsoleAfterReady": false,
+      "outputJSON": false,
+      "buffer": true,
+      "appLogName": "portal-node-web.log",
+      "coreLogName": "egg-web.log",
+      "agentLogName": "egg-agent.log",
+      "errorLogName": "common-error.log",
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
+      "allowDebugAtProd": false,
+      "enablePerformanceTimer": false,
+      "type": "application"
+    },
+    "httpclient": {
+      "enableDNSCache": false,
+      "dnsCacheLookupInterval": 10000,
+      "dnsCacheMaxLength": 1000,
+      "request": {
+        "timeout": 5000
+      },
+      "httpAgent": {
+        "keepAlive": true,
+        "freeSocketTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      },
+      "httpsAgent": {
+        "keepAlive": true,
+        "freeSocketTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      }
+    },
+    "meta": {
+      "enable": true,
+      "logging": false
+    },
+    "coreMiddleware": [
+      "cors",
+      "meta",
+      "siteFile",
+      "notfound",
+      "static",
+      "bodyParser",
+      "overrideMethod",
+      "session",
+      "securities",
+      "i18n",
+      "multipart",
+      "eggLoaderTrace",
+      "forI18"
+    ],
+    "workerStartTimeout": 600000,
+    "serverTimeout": null,
+    "cluster": {
+      "listen": {
+        "path": "",
+        "port": 7009,
+        "hostname": "0.0.0.0"
+      }
+    },
+    "clusterClient": {
+      "maxWaitTime": 60000,
+      "responseTimeout": 60000
+    },
+    "onClientError": null,
+    "siteMapConfig": {
+      "siteMapKey": "sitemap:prod",
+      "cacheTime": 900000
+    },
+    "sessionKey": "_session",
+    "requestModuleConfig": {},
+    "errorPage": "https://riostox.com/error_pages/error.html",
+    "prepareData": [
+      "member",
+      "optionMarket",
+      "optionTicker",
+      "appConfig",
+      "mMarket",
+      "captcha",
+      "challenge",
+      "currentIP",
+      "income",
+      "optionBalance",
+      "frontedCurrency"
+    ],
+    "routerProxyOptKey": "portal_option_btcusd_day_call:prod",
+    "transifexHash": "transifex_hash:pro",
+    "napiSecret": "<String len: 12>",
+    "optionOtcKey": "optionOtc:prod",
+    "voteCoin": "portal:pageConfig:voteico",
+    "portalNewestMarkets": "portal_newest_markets",
+    "ico": "portal:pageConfig:ico",
+    "siteMap": "portal:pageConfig:siteMap",
+    "adList": "portal:pageConfig:adList",
+    "registerActive": "portal:pageConfig:register_active",
+    "robots": "portal:pageConfig:robots",
+    "news": "portal:pageConfig:news",
+    "appConfig": "portal:pageConfig:appConfig",
+    "candyAmount": "portal:pageConfig:candy_amount",
+    "atTotalInfo": "atTotalInfo",
+    "portalAllOptionMarket": "portalAllOptionMarket",
+    "proMarkets": "portal:proMarkets",
+    "fundsInterlocution": "portal:pageConfig:fundsInterlocution",
+    "depositRemarksNew": "portal:pageConfig:depositRemarksNew",
+    "downLineCoin": [
+      "plat",
+      "soc",
+      "hand"
+    ],
+    "mutationNoAcl": [
+      "forgetPassword",
+      "forgetPasswordCode",
+      "forgetPsw",
+      "resetForgetPassword",
+      "redirect_path",
+      "signin",
+      "signup",
+      "twoFrontendFactor",
+      "authTwoFactor"
+    ],
+    "bannerKey": "portal:pageConfig:banner",
+    "announceKey": "portal:pageConfig:announce",
+    "autoGonPageConfig": [
+      "portal:pageConfig:ieo_active"
+    ],
+    "sendConfig": {
+      "API_USER_ID": "928eecbd520f677cb573bd37265e5c1b",
+      "API_SECRET": "<String len: 32>",
+      "TOKEN_STORAGE": "/tmp/",
+      "LIST_Id": 2288878
+    },
+    "middleware": [
+      "healthcheck",
+      "channel",
+      "currentMember",
+      "ratelimit",
+      "tradingView",
+      "routerProxy",
+      "authenticate",
+      "response",
+      "graphql"
+    ],
+    "pusherCommonCfg": {
+      "key": "73b0202a5bb9d80e63cb",
+      "wsPort": "8080",
+      "wssPort": "443",
+      "encrypted": false
+    },
+    "whiteListRedisKey": "portal-publicTest-whiteList",
+    "isOptionAgreeRedisKey": "portal-option-agree-member:prod",
+    "ratelimit": {
+      "duration": 60000,
+      "errorMessage": "The frequency of your visit is too high, please be merciful!",
+      "headers": {
+        "remaining": "Rate-Limit-Remaining",
+        "reset": "Rate-Limit-Reset",
+        "total": "Rate-Limit-Total"
+      },
+      "max": 120,
+      "disableHeader": false
+    },
+    "authenticate": {
+      "match": "/graphql"
+    },
+    "tradingView": {
+      "match": "/portal/1.1"
+    },
+    "currentMember": {
+      "match": "<Function match>"
+    },
+    "graphqlAcl": [
+      "voucher",
+      "order",
+      "bid",
+      "ask",
+      "account",
+      "favoriteMarket",
+      "income",
+      "isMiner",
+      "cancelOrder",
+      "clearOrder",
+      "voteCoinHistory",
+      "orderHistory",
+      "order24hHistory",
+      "optionBalance",
+      "optionTrade",
+      "optionOrder",
+      "optionExerciseDetail",
+      "optionFundsTransfersHistory",
+      "optionTransfersHistory",
+      "optionAccount",
+      "optionPositionAccount",
+      "optionOrderDetail",
+      "optionTransfer",
+      "optionCancelOrder",
+      "optionClearOrder",
+      "optionCreateOrder",
+      "transfer",
+      "condition",
+      "optionUserAuthenticate",
+      "optionPermission",
+      "withdrawAddress",
+      "fdt",
+      "optionPermission",
+      "newOtc",
+      "historyTrade",
+      "tradingView",
+      "proxyAuth",
+      "message",
+      "apiToken",
+      "userSigninWithAcl",
+      "pusherAuth",
+      "atGame"
+    ],
+    "lang": {
+      "en": [
+        "en-US",
+        "en-us",
+        "en",
+        "en-GB",
+        "en-gb",
+        "en-AU",
+        "en-au"
+      ],
+      "zh-CN": [
+        "zh",
+        "zh-SW",
+        "zh-sw",
+        "zh-CN",
+        "zh-cn"
+      ],
+      "zh-TW": [
+        "zh-TW",
+        "zh-tw",
+        "zh-SG",
+        "zh-sg",
+        "zh-HK",
+        "zh-hk",
+        "zh-MO",
+        "zh-mo"
+      ],
+      "ru": [
+        "ru_RU",
+        "ru_ru",
+        "ru",
+        "RU"
+      ],
+      "ko": [
+        "ko",
+        "KO"
+      ],
+      "vi": [
+        "vi",
+        "VI"
+      ],
+      "tr": [
+        "tr",
+        "TR"
+      ],
+      "es": [
+        "es"
+      ]
+    },
+    "huobiCfg": {
+      "baseUrl": "https://www.hbg.com",
+      "urls": {
+        "optionOtc": {
+          "get": {
+            "method": "GET",
+            "url": "/-/x/general/exchange_rate/list",
+            "params": []
+          }
+        }
+      }
+    },
+    "ieoCfg": {
+      "urls": {
+        "ieo": {
+          "submitOrder": {
+            "method": "POST",
+            "url": "/v1/ieoOrder/save",
+            "params": [
+              "ieoCode",
+              "currency",
+              "memberId",
+              "buyAmount",
+              "currencyAmount",
+              "rewardAmount",
+              "rewardRate"
+            ]
+          },
+          "ieoInfo": {
+            "method": "POST",
+            "url": "/v1/ieo/info",
+            "params": [
+              "ieoCode"
+            ]
+          },
+          "orderList": {
+            "method": "POST",
+            "url": "/v1/ieoOrder/list",
+            "params": [
+              "ieoCode",
+              "memberId",
+              "number",
+              "size"
+            ]
+          }
+        }
+      }
+    },
+    "mapiCommonCfg": {
+      "platform": "web",
+      "urls": {
+        "refreshToken": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/refresh_token",
+            "params": [
+              "member_id",
+              "session_id"
+            ]
+          }
+        },
+        "token": {
+          "method": "POST",
+          "url": "/api/mobile/v1/auth_token",
+          "params": [
+            "refresh_token"
+          ]
+        },
+        "pusherAuth": {
+          "post": {
+            "method": "POST",
+            "url": "/api/mobile/v1/pusher/auth",
+            "params": [
+              "socket_id",
+              "channel_name"
+            ]
+          }
+        },
+        "session": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/frontend/timestamp",
+            "params": []
+          }
+        },
+        "userSignin": {
+          "signin": {
+            "method": "POST",
+            "url": "/api/mobile/v1/frontend/signin",
+            "params": [
+              "session_id",
+              "email",
+              "password",
+              "id_type",
+              "id_value",
+              "token"
+            ]
+          },
+          "signup": {
+            "method": "POST",
+            "url": "/api/mobile/v1/frontend/signup",
+            "params": [
+              "session_id",
+              "email",
+              "password",
+              "password_confirmation",
+              "utm_source",
+              "utm_medium",
+              "aff",
+              "id_type",
+              "id_value",
+              "token"
+            ]
+          },
+          "twoFrontendFactor": {
+            "method": "POST",
+            "url": "/api/mobile/v1/frontend/two_factors",
+            "params": [
+              "session_id",
+              "type",
+              "refresh"
+            ]
+          },
+          "authTwoFactor": {
+            "method": "POST",
+            "url": "/api/mobile/v1/frontend/auth/two_factors",
+            "params": [
+              "session_id",
+              "email",
+              "otp",
+              "type"
+            ]
+          }
+        },
+        "userSigninWithAcl": {
+          "signout": {
+            "method": "POST",
+            "url": "/api/mobile/v1/frontend/logout",
+            "params": [
+              "session_id"
+            ]
+          },
+          "activationEmail": {
+            "method": "POST",
+            "url": "/api/mobile/v1/activation_email",
+            "params": [
+              "email"
+            ]
+          },
+          "activate": {
+            "method": "POST",
+            "url": "/api/mobile/v1/activate",
+            "params": [
+              "code"
+            ]
+          }
+        },
+        "depth": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/depth",
+            "params": [
+              "market"
+            ]
+          }
+        },
+        "redirect_path": {
+          "update": {
+            "method": "POST",
+            "url": "/api/mobile/v1/redirect_path",
+            "params": [
+              "session_id",
+              "path"
+            ]
+          }
+        },
+        "historyTrade": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/history/trades",
+            "params": [
+              "order_id",
+              "from",
+              "to",
+              "market",
+              "bu",
+              "qu",
+              "page",
+              "page_size"
+            ]
+          }
+        },
+        "optionPermission": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/option/option_permissions",
+            "params": []
+          }
+        },
+        "deliveryCurrency": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/option/delivery_currencies",
+            "params": []
+          },
+          "cache": {
+            "time": 300
+          }
+        },
+        "member": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/current_user",
+            "params": []
+          },
+          "verify": {
+            "method": "POST",
+            "url": "/api/mobile/v1/verify_two_factor",
+            "params": [
+              "auth_action",
+              "type",
+              "email",
+              "country",
+              "phone_number",
+              "password"
+            ]
+          },
+          "faceppVerify": {
+            "method": "POST",
+            "url": "/api/mobile/v1/facepp_verify",
+            "params": []
+          },
+          "document": {
+            "method": "POST",
+            "url": "/api/mobile/v1/id_documents",
+            "params": [
+              "token",
+              "id_document_type",
+              "first_name",
+              "last_name",
+              "phone",
+              "country_code",
+              "country",
+              "id_document_number",
+              "primary_id_document_file_attributes",
+              "secondary_id_document_file_attributes",
+              "selfie_id_document_file_attributes",
+              "name",
+              "gender",
+              "birth_date",
+              "address",
+              "city",
+              "zipcode"
+            ],
+            "excludeSignature": [
+              "primary_id_document_file_attributes",
+              "secondary_id_document_file_attributes",
+              "selfie_id_document_file_attributes"
+            ],
+            "isFormData": true
+          },
+          "historyMining": {
+            "method": "GET",
+            "url": "/api/mobile/v1/history/minings",
+            "params": [
+              "page_size",
+              "page"
+            ]
+          },
+          "historyProfits": {
+            "method": "GET",
+            "url": "/api/mobile/v1/history/profits",
+            "params": [
+              "page_size",
+              "page"
+            ]
+          }
+        },
+        "captcha": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/captcha",
+            "params": []
+          }
+        },
+        "challenge": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/captcha/geetest_challenge",
+            "params": []
+          }
+        },
+        "condition": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/condition_orders/current",
+            "params": [
+              "page",
+              "page_size",
+              "market_code",
+              "begin_time",
+              "end_time",
+              "condition_type"
+            ]
+          },
+          "getAll": {
+            "method": "GET",
+            "url": "/api/mobile/v1/condition_orders/history",
+            "params": [
+              "page",
+              "page_size",
+              "market_code",
+              "begin_time",
+              "end_time",
+              "condition_type"
+            ]
+          },
+          "create": {
+            "method": "POST",
+            "url": "/api/mobile/v1/condition_orders",
+            "params": [
+              "direction",
+              "trigger_price",
+              "volume",
+              "condition_type",
+              "side",
+              "market",
+              "price",
+              "ord_type"
+            ]
+          },
+          "delete": {
+            "method": "POST",
+            "url": "/api/mobile/v1/condition_orders/cancel",
+            "params": [
+              "id"
+            ]
+          },
+          "clear": {
+            "method": "POST",
+            "url": "/api/mobile/v1/condition_orders/clear",
+            "params": []
+          }
+        },
+        "frontedCurrency": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/frontend/currencies",
+            "params": []
+          }
+        },
+        "order": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/history/orders",
+            "params": [
+              "from",
+              "to",
+              "market",
+              "bu",
+              "qu",
+              "page",
+              "page_size",
+              "side",
+              "state",
+              "no_canceled",
+              "no_wait",
+              "with_trades"
+            ]
+          }
+        },
+        "cancelOrder": {
+          "delete": {
+            "method": "POST",
+            "url": "/api/mobile/v1/orders/cancel",
+            "params": [
+              "id"
+            ]
+          }
+        },
+        "clearOrder": {
+          "delete": {
+            "method": "POST",
+            "url": "/api/mobile/v1/orders/clear",
+            "params": [
+              "side"
+            ]
+          }
+        },
+        "bid": {
+          "update": {
+            "method": "POST",
+            "url": "/api/mobile/v1/order_bids",
+            "params": [
+              "market",
+              "volume",
+              "price",
+              "ord_type",
+              "percent"
+            ]
+          }
+        },
+        "ask": {
+          "update": {
+            "method": "POST",
+            "url": "/api/mobile/v1/order_asks",
+            "params": [
+              "market",
+              "volume",
+              "price",
+              "ord_type",
+              "percent"
+            ]
+          }
+        },
+        "account": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/frontend/accounts",
+            "params": [
+              "market"
+            ]
+          }
+        },
+        "voucher": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/member_vouchers",
+            "params": []
+          },
+          "historyVoucher": {
+            "method": "GET",
+            "url": "/api/mobile/v1/history_vouchers",
+            "params": [
+              "page_size",
+              "page"
+            ]
+          },
+          "inactiveVoucher": {
+            "method": "GET",
+            "url": "/api/mobile/v1/inactive_vouchers",
+            "params": []
+          }
+        },
+        "trade": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/frontend/trades",
+            "params": [
+              "market",
+              "limit"
+            ]
+          }
+        },
+        "apiToken": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/api_tokens",
+            "params": []
+          },
+          "post": {
+            "method": "POST",
+            "url": "/api/mobile/v1/api_tokens",
+            "params": [
+              "label",
+              "otp",
+              "type"
+            ]
+          },
+          "update": {
+            "method": "POST",
+            "url": "/api/mobile/v1/update_api_tokens",
+            "params": [
+              "ip_whitelist",
+              "otp",
+              "type",
+              "id"
+            ]
+          },
+          "delete": {
+            "method": "POST",
+            "url": "/api/mobile/v1/delete_api_token",
+            "params": [
+              "id"
+            ]
+          }
+        },
+        "fdt": {
+          "countries": {
+            "method": "GET",
+            "url": "/api/mobile/v1/fdt/countries",
+            "params": []
+          },
+          "bank": {
+            "method": "GET",
+            "url": "/api/mobile/v1/fdt/party-bank",
+            "params": []
+          },
+          "banks": {
+            "method": "GET",
+            "url": "/api/mobile/v1/fdt/banks",
+            "params": [
+              "swift_code",
+              "name"
+            ]
+          },
+          "bankCards": {
+            "method": "POST",
+            "url": "/api/mobile/v1/bank_cards",
+            "params": [
+              "fdt_bank_id",
+              "account_number",
+              "fdt_country_id",
+              "city",
+              "state_province",
+              "postal_code",
+              "address1",
+              "address2",
+              "relationship"
+            ]
+          },
+          "bankGet": {
+            "method": "GET",
+            "url": "/api/mobile/v1/bank_cards",
+            "params": [
+              "type"
+            ]
+          },
+          "depositList": {
+            "method": "GET",
+            "url": "/api/mobile/v1/bank_cards/deposit_list",
+            "params": []
+          },
+          "withdrawList": {
+            "method": "GET",
+            "url": "/api/mobile/v1/bank_cards/withdraw_list",
+            "params": []
+          },
+          "bankWires": {
+            "method": "POST",
+            "url": "/api/mobile/v1/bank_wires",
+            "params": [
+              "bank_card_id",
+              "source_of_funds",
+              "amount"
+            ]
+          },
+          "bankWiresGet": {
+            "method": "GET",
+            "url": "/api/mobile/v1/bank_wires/detail",
+            "params": [
+              "id"
+            ]
+          },
+          "bankWiresList": {
+            "method": "GET",
+            "url": "/api/mobile/v1/bank_wires",
+            "params": []
+          },
+          "fiat": {
+            "method": "POST",
+            "url": "/api/mobile/v1/withdraws/fiat",
+            "params": [
+              "currency",
+              "bank_card_id",
+              "sum",
+              "memo",
+              "otp",
+              "type"
+            ]
+          }
+        },
+        "withdrawAddress": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/account/withdraw_addresses",
+            "params": []
+          },
+          "depositHistory": {
+            "method": "GET",
+            "url": "/api/mobile/v1/account/deposits",
+            "params": [
+              "type",
+              "page",
+              "page_size"
+            ]
+          },
+          "applicants": {
+            "method": "POST",
+            "url": "/api/mobile/v1/id_documents",
+            "params": [
+              "birth_date",
+              "first_name",
+              "last_name",
+              "country",
+              "city",
+              "zipcode",
+              "address"
+            ]
+          },
+          "sdkTokenKyc": {
+            "method": "POST",
+            "url": "/api/mobile/v1/id_documents/onfido_token",
+            "params": []
+          },
+          "checkKyc": {
+            "method": "POST",
+            "url": "/api/mobile/v1/id_documents/onfido_check",
+            "params": []
+          },
+          "withdrawsHistory": {
+            "method": "GET",
+            "url": "/api/mobile/v1/account/withdraws",
+            "params": [
+              "page",
+              "page_size"
+            ]
+          },
+          "accountTransferHistory": {
+            "method": "GET",
+            "url": "/api/mobile/v1/history/transfers",
+            "params": [
+              "page",
+              "page_size"
+            ]
+          },
+          "resend": {
+            "method": "POST",
+            "url": "/api/mobile/v1/withdraws/resend",
+            "params": [
+              "id"
+            ]
+          },
+          "verify": {
+            "method": "POST",
+            "url": "/api/mobile/v1/withdraws/verify",
+            "params": [
+              "code",
+              "id"
+            ]
+          },
+          "create": {
+            "method": "POST",
+            "url": "/api/mobile/v1/withdraws/create",
+            "params": [
+              "currency",
+              "fund_uid",
+              "sum",
+              "memo",
+              "otp",
+              "type"
+            ]
+          },
+          "deleteAddress": {
+            "method": "POST",
+            "url": "/api/mobile/v1/account/withdraw_addresses/delete",
+            "params": [
+              "id"
+            ]
+          },
+          "depositAddress": {
+            "method": "GET",
+            "url": "/api/mobile/v1/deposit_address",
+            "params": [
+              "currency"
+            ]
+          },
+          "createAddress": {
+            "method": "POST",
+            "url": "/api/mobile/v1/account/withdraw_addresses/create",
+            "params": [
+              "currency",
+              "extra",
+              "uid"
+            ]
+          },
+          "me": {
+            "method": "GET",
+            "url": "/api/mobile/v1/account/me",
+            "params": []
+          },
+          "atVipGrade": {
+            "method": "GET",
+            "url": "/api/mobile/v1/account/at_vip_grade",
+            "params": []
+          },
+          "vipLevel": {
+            "method": "GET",
+            "url": "/api/mobile/v1/account/vip_level",
+            "params": []
+          }
+        },
+        "atGame": {
+          "atGameTaskList": {
+            "method": "POST",
+            "url": "/api/mobile/v1/at_game/member_task_list",
+            "params": [
+              "number",
+              "size"
+            ]
+          },
+          "atGameRewardHis": {
+            "method": "POST",
+            "url": "/api/mobile/v1/at_game/member_reward_list",
+            "params": [
+              "number",
+              "size"
+            ]
+          }
+        },
+        "message": {
+          "factor": {
+            "method": "POST",
+            "url": "/api/mobile/v1/two_factors",
+            "params": [
+              "type",
+              "refresh"
+            ]
+          },
+          "confirmFactor": {
+            "method": "POST",
+            "url": "/api/mobile/v1/confirm_two_factor",
+            "params": [
+              "otp",
+              "type",
+              "auth_action",
+              "password"
+            ]
+          },
+          "appFactor": {
+            "method": "POST",
+            "url": "/api/mobile/v1/app_two_factor",
+            "params": [
+              "otp",
+              "auth_action",
+              "password"
+            ]
+          },
+          "appFactorOtp": {
+            "method": "POST",
+            "url": "/api/mobile/v1/app_two_factor_otp",
+            "params": []
+          },
+          "resetPassword": {
+            "method": "POST",
+            "url": "/api/mobile/v1/reset_password",
+            "params": [
+              "otp",
+              "type",
+              "old_password",
+              "password",
+              "password_confirmation"
+            ]
+          },
+          "documentSms": {
+            "method": "POST",
+            "url": "/api/mobile/v1/id_document/sms",
+            "params": [
+              "phone",
+              "country_code"
+            ]
+          }
+        },
+        "forget": {
+          "forgetPassword": {
+            "method": "POST",
+            "url": "/api/mobile/v1/forget_password",
+            "params": [
+              "email",
+              "token",
+              "id_value",
+              "id_type"
+            ]
+          },
+          "forgetPasswordCode": {
+            "method": "POST",
+            "url": "/api/mobile/v1/forget_password_code_email",
+            "params": [
+              "email",
+              "code"
+            ]
+          },
+          "forgetPsw": {
+            "method": "POST",
+            "url": "/api/mobile/v1/forget_psw_2fa",
+            "params": [
+              "code",
+              "type",
+              "email",
+              "refresh"
+            ]
+          },
+          "resetForgetPassword": {
+            "method": "POST",
+            "url": "/api/mobile/v1/reset_forget_password_email",
+            "params": [
+              "email",
+              "code",
+              "type",
+              "otp",
+              "password"
+            ]
+          }
+        },
+        "favoriteMarket": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/favorite_markets",
+            "params": []
+          },
+          "update": {
+            "method": "POST",
+            "url": "/api/mobile/v1/like_market",
+            "params": [
+              "market_id"
+            ]
+          },
+          "delete": {
+            "method": "POST",
+            "url": "/api/mobile/v1/dislike_market",
+            "params": [
+              "market_id"
+            ]
+          }
+        },
+        "computingPower": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/computing_power",
+            "params": []
+          }
+        },
+        "income": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/mining/my_mining",
+            "params": []
+          }
+        },
+        "platformProfit": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/mining/platform_profit",
+            "params": []
+          }
+        },
+        "market": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/tickers",
+            "params": []
+          }
+        },
+        "mMarket": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/markets",
+            "params": []
+          }
+        },
+        "ticker": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/tickers",
+            "params": []
+          }
+        },
+        "optionTicker": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/option/tickers",
+            "params": []
+          }
+        },
+        "kline": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/multi_k",
+            "params": [
+              "markets",
+              "limit",
+              "period",
+              "to",
+              "timestamp"
+            ]
+          }
+        },
+        "singleKLine": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/kline",
+            "params": [
+              "market",
+              "limit",
+              "period",
+              "to",
+              "timestamp"
+            ]
+          }
+        },
+        "otc": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/otc",
+            "params": []
+          }
+        },
+        "newOtc": {
+          "getOne": {
+            "method": "GET",
+            "url": "/api/mobile/v1/otc/payment_order",
+            "params": [
+              "payment_id"
+            ]
+          },
+          "getAll": {
+            "method": "GET",
+            "url": "/api/mobile/v1/otc/payment_orders",
+            "params": [
+              "page",
+              "page_size",
+              "state"
+            ]
+          },
+          "getQuote": {
+            "method": "GET",
+            "url": "/api/mobile/v1/otc/quote",
+            "params": [
+              "digital_currency",
+              "fiat_currency",
+              "requested_currency",
+              "requested_amount"
+            ]
+          },
+          "create": {
+            "method": "POST",
+            "url": "/api/mobile/v1/otc/payment_orders",
+            "params": [
+              "quote_id"
+            ]
+          }
+        },
+        "optionPriceIndex": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/option/price_indexes",
+            "params": [
+              "start",
+              "end",
+              "period",
+              "code"
+            ],
+            "cache": {
+              "time": 5
+            }
+          }
+        },
+        "allCurrency": {
+          "get": {
+            "url": "/api/mobile/v1/site_config/general",
+            "method": "GET",
+            "params": []
+          }
+        },
+        "optionOrder": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/option/orders",
+            "params": [
+              "page",
+              "side",
+              "start_time",
+              "end_time",
+              "market_code",
+              "state",
+              "order_by",
+              "direction",
+              "page_size"
+            ]
+          }
+        },
+        "optionCancelOrder": {
+          "delete": {
+            "method": "POST",
+            "url": "/api/mobile/v1/option/order/cancel",
+            "params": [
+              "id"
+            ]
+          },
+          "whiteListCheck": true
+        },
+        "optionClearOrder": {
+          "delete": {
+            "method": "POST",
+            "url": "/api/mobile/v1/option/orders/clear",
+            "params": []
+          },
+          "whiteListCheck": true
+        },
+        "optionCreateOrder": {
+          "add": {
+            "method": "POST",
+            "url": "/api/mobile/v1/option/orders",
+            "params": [
+              "market_code",
+              "side",
+              "volume",
+              "price",
+              "ord_type"
+            ]
+          },
+          "whiteListCheck": true
+        },
+        "optionTransfer": {
+          "update": {
+            "method": "POST",
+            "url": "/api/mobile/v1/option/transfers",
+            "params": [
+              "currency_code",
+              "to_account",
+              "from_account",
+              "amount"
+            ]
+          }
+        },
+        "optionExerciseDetail": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/option/exercise_details",
+            "params": [
+              "direction",
+              "page",
+              "page_size"
+            ]
+          }
+        },
+        "optionAccount": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/option/option_accounts",
+            "params": [
+              "currency_code"
+            ]
+          }
+        },
+        "optionContractsHistory": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/option/contracts",
+            "params": [
+              "direction",
+              "page",
+              "page_size",
+              "state",
+              "delivery_currency_codes"
+            ],
+            "restriction": {
+              "state": "not_start,ongoing,closed,can_check,checked,canceled"
+            }
+          }
+        },
+        "optionCurrencies": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/option/currencies",
+            "params": []
+          }
+        },
+        "optionContractsStat": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/option/contracts_stat",
+            "params": []
+          }
+        },
+        "optionDepth": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/option/depth",
+            "params": [
+              "market_code",
+              "limit"
+            ]
+          }
+        },
+        "optionFundsTransfersHistory": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/funds/transfers",
+            "params": [
+              "direction",
+              "page",
+              "per_page"
+            ]
+          }
+        },
+        "optionHistoryTrade": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/option/trades",
+            "params": [
+              "market_code",
+              "start_time",
+              "end_time",
+              "direction",
+              "page",
+              "page_size",
+              "start_id",
+              "end_id"
+            ]
+          }
+        },
+        "optionKLineByCode": {
+          "get": {
+            "method": "GET",
+            "url": "api/mobile/v1/option/kline",
+            "params": [
+              "period",
+              "limit",
+              "start_time",
+              "end_time",
+              "market_code"
+            ]
+          }
+        },
+        "optionKLineByCodes": {
+          "get": {
+            "method": "GET",
+            "url": "api/mobile/v1/option/klines",
+            "params": [
+              "period",
+              "limit",
+              "start_time",
+              "end_time",
+              "market_codes"
+            ]
+          }
+        },
+        "optionPenddingKLine": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/option/kline/with_pending_trade",
+            "params": [
+              "period",
+              "limit",
+              "trade_id",
+              "start_time",
+              "end_time",
+              "market_code"
+            ]
+          }
+        },
+        "optionBalance": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/account/balances",
+            "params": []
+          }
+        },
+        "optionMarket": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/option/markets",
+            "params": [
+              "state",
+              "visible"
+            ]
+          }
+        },
+        "optionOrderDetail": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/option/order",
+            "params": [
+              "id"
+            ]
+          }
+        },
+        "optionPositionAccount": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/option/position_accounts",
+            "params": []
+          }
+        },
+        "optionTrade": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/option/members/trades",
+            "params": [
+              "start_time",
+              "end_time",
+              "page",
+              "direction",
+              "page_size",
+              "market_code",
+              "start_id",
+              "end_id",
+              "order_id"
+            ]
+          }
+        },
+        "optionTransfersHistory": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/option/transfers",
+            "params": [
+              "page",
+              "direction",
+              "page_size"
+            ]
+          }
+        },
+        "registerGeetest": {
+          "get": {
+            "method": "GET",
+            "url": "/api/mobile/v1/geetest_token",
+            "params": []
+          }
+        }
+      }
+    },
+    "frontedCommonCfg": {
+      "urls": {
+        "isMiner": {
+          "method": "GET",
+          "url": "/api/v1/auth/mining-member",
+          "params": [
+            "security",
+            "uid"
+          ]
+        }
+      }
+    },
+    "napiCommonCfg": {
+      "urls": {
+        "atTotalInfo": {
+          "get": {
+            "method": "GET",
+            "url": "/portal/atTotalInfo",
+            "params": [
+              "timestamp"
+            ]
+          }
+        },
+        "tradingView": {
+          "get": {
+            "method": "GET",
+            "url": "/portal/tradingView",
+            "params": [
+              "clientId",
+              "userId",
+              "template"
+            ]
+          },
+          "add": {
+            "method": "POST",
+            "url": "/portal/tradingView",
+            "params": [
+              "clientId",
+              "userId",
+              "name",
+              "content"
+            ]
+          },
+          "delete": {
+            "method": "POST",
+            "url": "/portal/tradingView/del",
+            "params": [
+              "clientId",
+              "userId",
+              "template"
+            ]
+          }
+        },
+        "lastSevenAtAward": {
+          "get": {
+            "method": "GET",
+            "url": "/portal/lastSevenAtAward",
+            "params": []
+          }
+        },
+        "lastSevenAtMiningAward": {
+          "get": {
+            "method": "GET",
+            "url": "/portal/lastSevenAtMiningAward",
+            "params": []
+          }
+        },
+        "optionUserAuthenticate": {
+          "get": {
+            "method": "GET",
+            "url": "/option/agree/:uid/:secret",
+            "params": []
+          },
+          "update": {
+            "method": "GET",
+            "url": "/option/set/agree/:uid/:secret",
+            "params": []
+          }
+        },
+        "voteCoin": {
+          "get": {
+            "method": "GET",
+            "url": "/vote_history/:uid/:secret",
+            "params": []
+          }
+        },
+        "voteCoinHistory": {
+          "get": {
+            "method": "GET",
+            "url": "/vote_reward_history/:uid/:secret",
+            "params": []
+          }
+        },
+        "allMarkets": {
+          "get": {
+            "method": "GET",
+            "url": "/markets/:secret",
+            "params": []
+          }
+        },
+        "voteCount": {
+          "get": {
+            "method": "GET",
+            "url": "/vote_count/:period",
+            "params": []
+          }
+        },
+        "proxyAuth": {
+          "post": {
+            "method": "POST",
+            "url": "/proxy/auth",
+            "params": [
+              "forwardName",
+              "uid",
+              "secret"
+            ]
+          }
+        }
+      }
+    },
+    "exchangeFrontedCommonCfg": {
+      "urls": {
+        "orderHistory": {
+          "get": {
+            "method": "GET",
+            "url": "/history/orders.json",
+            "params": [
+              "state",
+              "per_page"
+            ]
+          }
+        },
+        "order24hHistory": {
+          "get": {
+            "method": "GET",
+            "url": "/history/orders24h.json",
+            "params": [
+              "per_page"
+            ]
+          }
+        },
+        "pendingKLine": {
+          "get": {
+            "method": "GET",
+            "url": "/api/v2/k_with_pending_trades.json",
+            "params": [
+              "market",
+              "limit",
+              "period",
+              "_t",
+              "trade_id"
+            ]
+          }
+        },
+        "depth": {
+          "get": {
+            "method": "GET",
+            "url": "/api/v2/depth.json",
+            "params": [
+              "market"
+            ]
+          }
+        }
+      }
+    },
+    "geetest": {
+      "urls": {
+        "registerGeetest": {
+          "method": "GET",
+          "url": "/api/mobile/v1/geetest_token",
+          "params": []
+        }
+      }
+    },
+    "switch": {
+      "type": "http"
+    },
+    "staticOptionHashKey": "option:pageConfig:siteHash:prod",
+    "staticHashKey": "portal:pageConfig:siteHash:prod",
+    "staticServer": "//s.riostox.com/portal/static",
+    "staticOptionServer": "//s.riostox.com/option/static",
+    "rootDomain": "//riostox.com",
+    "mapiSpecialCfg": {
+      "key": "fe6b08005afff75f45d944da574f222c",
+      "secret": "<String len: 64>",
+      "baseUrl": "https://mapi.riostox.com"
+    },
+    "napiSpecialCfg": {
+      "baseUrl": "http://127.0.0.1:7003",
+      "originDomain": "https://riostox.com"
+    },
+    "frontedSpecialCfg": {
+      "baseUrl": "http://promotion.in.riostox.com"
+    },
+    "exchangeFrontedSpecialCfg": {
+      "baseUrl": "https://riostox.com",
+      "apiBaseUrl": "https://api.riostox.com",
+      "domain": ".riostox.com"
+    },
+    "pusherSpecialCfg": {
+      "wsHost": "push.riostox.com"
+    },
+    "localDebug": {
+      "sessionId": "d625a047a8f601f178e41a37349db145",
+      "memberId": 54
+    },
+    "ieoSpecialConfig": {
+      "baseUrl": "http://atvip.alb.in.riostox.com"
+    },
+    "coreMiddlewares": "~config~coreMiddleware",
+    "appMiddlewares": "~config~middleware",
+    "appMiddleware": "~config~middleware",
+    "multipartParseOptions": {
+      "autoFields": false,
+      "defCharset": "utf8",
+      "limits": {
+        "fieldNameSize": 100,
+        "fieldSize": 102400,
+        "fields": 20,
+        "fileSize": 5242880,
+        "files": 10
+      },
+      "checkFile": "<Function checkFile>"
+    }
+  },
+  "plugins": {
+    "onerror": {
+      "enable": true,
+      "package": "egg-onerror",
+      "name": "onerror",
+      "dependencies": [],
+      "optionalDependencies": [
+        "jsonp"
+      ],
+      "env": [],
+      "from": "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg/config/plugin.js",
+      "path": "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-onerror",
+      "version": "2.1.0"
+    },
+    "session": {
+      "enable": true,
+      "package": "egg-session",
+      "name": "session",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg/config/plugin.js",
+      "path": "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-session",
+      "version": "3.3.0"
+    },
+    "i18n": {
+      "enable": true,
+      "name": "i18n",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/talk/Desktop/document/rio/exchange/portal/config/plugin.js",
+      "package": "egg-i18n",
+      "path": "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-i18n",
+      "version": "2.1.1"
+    },
+    "watcher": {
+      "enable": true,
+      "package": "egg-watcher",
+      "name": "watcher",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg/config/plugin.js",
+      "path": "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-watcher",
+      "version": "3.1.1"
+    },
+    "multipart": {
+      "enable": true,
+      "package": "egg-multipart",
+      "name": "multipart",
+      "dependencies": [],
+      "optionalDependencies": [
+        "schedule"
+      ],
+      "env": [],
+      "from": "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg/config/plugin.js",
+      "path": "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-multipart",
+      "version": "2.13.1"
+    },
+    "security": {
+      "enable": true,
+      "package": "egg-security",
+      "name": "security",
+      "dependencies": [],
+      "optionalDependencies": [
+        "session"
+      ],
+      "env": [],
+      "from": "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg/config/plugin.js",
+      "path": "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-security",
+      "version": "2.9.0"
+    },
+    "development": {
+      "enable": true,
+      "package": "egg-development",
+      "name": "development",
+      "dependencies": [
+        "watcher"
+      ],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg/config/plugin.js",
+      "path": "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-development",
+      "version": "2.7.0"
+    },
+    "logrotator": {
+      "enable": true,
+      "package": "egg-logrotator",
+      "name": "logrotator",
+      "dependencies": [
+        "schedule"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg/config/plugin.js",
+      "path": "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-logrotator",
+      "version": "3.1.0"
+    },
+    "schedule": {
+      "enable": true,
+      "package": "egg-schedule",
+      "name": "schedule",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg/config/plugin.js",
+      "path": "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-schedule",
+      "version": "3.6.6"
+    },
+    "static": {
+      "enable": true,
+      "package": "egg-static",
+      "name": "static",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg/config/plugin.js",
+      "path": "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-static",
+      "version": "2.2.0"
+    },
+    "jsonp": {
+      "enable": true,
+      "package": "egg-jsonp",
+      "name": "jsonp",
+      "dependencies": [],
+      "optionalDependencies": [
+        "security"
+      ],
+      "env": [],
+      "from": "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg/config/plugin.js",
+      "path": "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-jsonp",
+      "version": "2.0.0"
+    },
+    "view": {
+      "enable": true,
+      "package": "egg-view",
+      "name": "view",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg/config/plugin.js",
+      "path": "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-view",
+      "version": "2.1.3"
+    },
+    "forI18": {
+      "enable": true,
+      "path": "/Users/talk/Desktop/document/rio/exchange/portal/lib/egg-forI18",
+      "name": "forI18",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/talk/Desktop/document/rio/exchange/portal/config/plugin.js",
+      "version": "1.0.0"
+    },
+    "graphql": {
+      "enable": true,
+      "package": "egg-graphql",
+      "name": "graphql",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/talk/Desktop/document/rio/exchange/portal/config/plugin.js",
+      "path": "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-graphql",
+      "version": "2.8.0"
+    },
+    "cors": {
+      "enable": true,
+      "package": "egg-cors",
+      "name": "cors",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/talk/Desktop/document/rio/exchange/portal/config/plugin.js",
+      "path": "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-cors",
+      "version": "2.2.3"
+    },
+    "redis": {
+      "enable": true,
+      "package": "egg-redis",
+      "name": "redis",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/talk/Desktop/document/rio/exchange/portal/config/plugin.js",
+      "path": "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-redis",
+      "version": "2.4.0"
+    },
+    "nunjucks": {
+      "enable": true,
+      "package": "egg-view-nunjucks",
+      "name": "nunjucks",
+      "dependencies": [
+        "security",
+        "view"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/talk/Desktop/document/rio/exchange/portal/config/plugin.js",
+      "path": "/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-view-nunjucks",
+      "version": "2.3.0"
+    }
+  }
+}

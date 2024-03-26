@@ -1,0 +1,33 @@
+2022-06-28 06:46:05,718 ERROR 14685 nodejs.ClusterClientNoResponseError: client no response in 43228978ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 14685
+hostname: talkdeMacBook-Pro.local
+
+2022-06-28 07:15:06,759 ERROR 14687 [-/127.0.0.1/-/646ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] GeneralRequest catch request error {"cause":{"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"mapi.riostox.com","host":"mapi.riostox.com","port":443},"isOperational":true,"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"mapi.riostox.com","host":"mapi.riostox.com","port":443}
+2022-06-28 07:15:06,773 ERROR 14687 [-/127.0.0.1/-/662ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] GeneralRequest error ticker {"error":{"message":"getaddrinfo ENOTFOUND mapi.riostox.com mapi.riostox.com:443"}} {}
+2022-06-28 07:15:06,774 ERROR 14687 [-/127.0.0.1/-/662ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] schedule market existed Error: getaddrinfo ENOTFOUND mapi.riostox.com mapi.riostox.com:443
+2022-06-28 07:15:08,718 ERROR 14685 nodejs.ClusterClientNoResponseError: client no response in 1742849ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 14685
+hostname: talkdeMacBook-Pro.local
+
+2022-06-28 10:26:31,509 ERROR 14685 nodejs.ClusterClientNoResponseError: client no response in 11482783ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 14685
+hostname: talkdeMacBook-Pro.local
+

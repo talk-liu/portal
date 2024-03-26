@@ -1,0 +1,32 @@
+{
+  "url": "v1/option/exercise_details?direction=[ASC OR DEC]&page=1&per_page=100",
+  "comment": "个人行权记录",
+  "data": [
+    {
+      "id": 1,
+      "done_at": "2018-09-20",
+      "contract": {
+        "name": "合约名称",
+        "strike_price": 100,
+        "settlement_price": 100
+      },
+      "long_position": 1000,
+      "short_position": 1000,
+      "result": true,
+      "amount": 100
+    },
+    {
+      "id": 2,
+      "done_at": "2018-09-20",
+      "contract": {
+        "name": "合约名称",
+        "strike_price": 100,
+        "settlement_price": 100
+      },
+      "long_position": 1000,
+      "short_position": 1000,
+      "result": false,
+      "amount": 100
+    }
+  ]
+}

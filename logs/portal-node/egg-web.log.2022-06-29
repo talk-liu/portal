@@ -1,0 +1,15 @@
+2022-06-29 15:44:09,880 INFO 14687 [egg-logrotator] app logger reload: got log-reload message
+2022-06-29 17:25:29,586 WARN 14687 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-06-29 17:25:29,586 WARN 14687 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-29 17:26:54,298 WARN 14687 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-29 21:00:03,048 WARN 14687 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-06-29 21:00:03,048 WARN 14687 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-30 05:25:21,491 WARN 14687 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-06-30 05:25:21,500 WARN 14687 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-30 10:30:17,831 WARN 14687 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-06-30 10:30:17,848 WARN 14687 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-30 13:18:17,688 INFO 14687 [-/127.0.0.1/-/2ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/zt/smm53qcj67g3syyrg5gs49lw0000gn/T/egg-multipart-tmp/portal-node"
+2022-06-30 13:18:17,700 INFO 14687 [-/127.0.0.1/-/16ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2022-06-30 17:04:08,782 INFO 14687 [egg-logrotator] clean all log before 31 days
+2022-06-30 17:04:09,760 INFO 14687 [egg-logrotator] broadcast log-reload
+2022-06-30 17:04:09,760 INFO 14687 [egg-logrotator] rotate files success by DayRotator, files ["/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/common-error.log -> /Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/common-error.log.2022-06-29","/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/portal-node-web.log -> /Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/portal-node-web.log.2022-06-29","/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/egg-web.log -> /Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/egg-web.log.2022-06-29","/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/egg-schedule.log -> /Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/egg-schedule.log.2022-06-29","/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/egg-agent.log -> /Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/egg-agent.log.2022-06-29"]

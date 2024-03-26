@@ -1,0 +1,59 @@
+2022-06-29 17:25:29,592 ERROR 14685 nodejs.ClusterClientNoResponseError: client no response in 81329ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 14685
+hostname: talkdeMacBook-Pro.local
+
+2022-06-29 17:26:54,298 ERROR 14685 nodejs.ClusterClientNoResponseError: client no response in 83961ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 14685
+hostname: talkdeMacBook-Pro.local
+
+2022-06-29 21:00:03,048 ERROR 14685 nodejs.ClusterClientNoResponseError: client no response in 12762135ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 14685
+hostname: talkdeMacBook-Pro.local
+
+2022-06-30 05:25:21,481 ERROR 14685 nodejs.ClusterClientNoResponseError: client no response in 30318417ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 14685
+hostname: talkdeMacBook-Pro.local
+
+2022-06-30 10:30:17,843 ERROR 14685 nodejs.ClusterClientNoResponseError: client no response in 18296265ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 14685
+hostname: talkdeMacBook-Pro.local
+
+2022-06-30 12:23:27,748 ERROR 14687 [-/127.0.0.1/-/717791ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] GeneralRequest catch request error {"cause":{"errno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"read"},"isOperational":true,"errno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"read"}
+2022-06-30 12:23:27,748 ERROR 14687 [-/127.0.0.1/-/717791ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] GeneralRequest error ticker {"error":{"message":"read ETIMEDOUT"}} {}
+2022-06-30 12:23:27,749 ERROR 14687 [-/127.0.0.1/-/717792ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] schedule market existed Error: read ETIMEDOUT
+2022-06-30 14:02:46,036 ERROR 14687 [-/127.0.0.1/-/75527ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] GeneralRequest catch request error {"cause":{"errno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","address":"54.179.78.69","port":443},"isOperational":true,"errno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","address":"54.179.78.69","port":443}
+2022-06-30 14:02:46,036 ERROR 14687 [-/127.0.0.1/-/75527ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] GeneralRequest error ticker {"error":{"message":"connect ETIMEDOUT 54.179.78.69:443"}} {}
+2022-06-30 14:02:46,037 ERROR 14687 [-/127.0.0.1/-/75528ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] schedule market existed Error: connect ETIMEDOUT 54.179.78.69:443
+2022-06-30 14:03:46,447 ERROR 14687 [-/127.0.0.1/-/75933ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] GeneralRequest catch request error {"cause":{"errno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","address":"54.179.78.69","port":443},"isOperational":true,"errno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","address":"54.179.78.69","port":443}
+2022-06-30 14:03:46,447 ERROR 14687 [-/127.0.0.1/-/75933ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] GeneralRequest error ticker {"error":{"message":"connect ETIMEDOUT 54.179.78.69:443"}} {}
+2022-06-30 14:03:46,447 ERROR 14687 [-/127.0.0.1/-/75933ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] schedule market existed Error: connect ETIMEDOUT 54.179.78.69:443

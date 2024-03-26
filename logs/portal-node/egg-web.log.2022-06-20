@@ -1,0 +1,59 @@
+2022-06-16 15:34:15,273 INFO 24824 [egg-logrotator] app logger reload: got log-reload message
+2022-06-16 19:14:13,699 WARN 24824 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-06-16 19:14:13,700 WARN 24824 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-16 23:07:45,778 WARN 24824 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-17 09:00:17,249 WARN 24824 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-06-17 09:00:17,251 WARN 24824 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-20 14:20:29,668 INFO 13638 [egg:logger] init all loggers with options: {"dir":"/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"portal-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-06-20 14:20:29,714 INFO 13638 [egg-multipart] file mode enable
+2022-06-20 14:20:29,714 INFO 13638 [egg-multipart] will save temporary files to "/var/folders/zt/smm53qcj67g3syyrg5gs49lw0000gn/T/egg-multipart-tmp/portal-node", cleanup job cron: "0 30 4 * * *"
+2022-06-20 14:20:30,028 INFO 13638 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-06-20 14:20:30,032 INFO 13638 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-06-20 14:20:30,032 INFO 13638 [egg-redis] server connecting redis://:***@127.0.0.1:6379/1
+2022-06-20 14:20:31,391 INFO 13638 [egg-static] starting static serve /public/ -> /Users/talk/Desktop/document/rio/exchange/portal/app/public
+2022-06-20 14:20:31,396 INFO 13638 [egg-security] use methodnoallow middleware
+2022-06-20 14:20:31,398 INFO 13638 [egg-security] use noopen middleware
+2022-06-20 14:20:31,399 INFO 13638 [egg-security] use nosniff middleware
+2022-06-20 14:20:31,400 INFO 13638 [egg-security] use xssProtection middleware
+2022-06-20 14:20:31,402 INFO 13638 [egg-security] use xframe middleware
+2022-06-20 14:20:31,402 INFO 13638 [egg-security] use dta middleware
+2022-06-20 14:20:31,402 INFO 13638 [egg-security] compose 6 middlewares into one security middleware
+2022-06-20 14:20:31,445 INFO 13638 [egg:core] dump config after load, 18ms
+2022-06-20 14:20:31,460 INFO 13638 [egg-redis] client connect success
+2022-06-20 14:20:31,461 INFO 13638 [egg-redis] client connect success
+2022-06-20 14:20:31,463 INFO 13638 [egg-redis] client connect success
+2022-06-20 14:20:31,472 INFO 13638 [egg-redis] instance[0] status OK, client ready
+2022-06-20 14:20:31,472 INFO 13638 [egg-redis] instance[1] status OK, client ready
+2022-06-20 14:20:31,473 INFO 13638 [egg-redis] instance[2] status OK, client ready
+2022-06-20 14:20:31,479 INFO 13638 [egg-watcher:application] watcher start success
+2022-06-20 14:20:31,496 INFO 13638 [egg:core] dump config after ready, 12ms
+2022-06-20 14:50:46,887 INFO 14687 [egg:logger] init all loggers with options: {"dir":"/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"portal-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-06-20 14:50:46,910 INFO 14687 [egg-multipart] file mode enable
+2022-06-20 14:50:46,910 INFO 14687 [egg-multipart] will save temporary files to "/var/folders/zt/smm53qcj67g3syyrg5gs49lw0000gn/T/egg-multipart-tmp/portal-node", cleanup job cron: "0 30 4 * * *"
+2022-06-20 14:50:47,105 INFO 14687 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-06-20 14:50:47,107 INFO 14687 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-06-20 14:50:47,108 INFO 14687 [egg-redis] server connecting redis://:***@127.0.0.1:6379/1
+2022-06-20 14:50:48,044 INFO 14687 [egg-static] starting static serve /public/ -> /Users/talk/Desktop/document/rio/exchange/portal/app/public
+2022-06-20 14:50:48,047 INFO 14687 [egg-security] use methodnoallow middleware
+2022-06-20 14:50:48,048 INFO 14687 [egg-security] use noopen middleware
+2022-06-20 14:50:48,050 INFO 14687 [egg-security] use nosniff middleware
+2022-06-20 14:50:48,051 INFO 14687 [egg-security] use xssProtection middleware
+2022-06-20 14:50:48,052 INFO 14687 [egg-security] use xframe middleware
+2022-06-20 14:50:48,053 INFO 14687 [egg-security] use dta middleware
+2022-06-20 14:50:48,053 INFO 14687 [egg-security] compose 6 middlewares into one security middleware
+2022-06-20 14:50:48,079 INFO 14687 [egg:core] dump config after load, 12ms
+2022-06-20 14:50:48,089 INFO 14687 [egg-redis] client connect success
+2022-06-20 14:50:48,090 INFO 14687 [egg-redis] client connect success
+2022-06-20 14:50:48,091 INFO 14687 [egg-redis] client connect success
+2022-06-20 14:50:48,097 INFO 14687 [egg-redis] instance[0] status OK, client ready
+2022-06-20 14:50:48,097 INFO 14687 [egg-redis] instance[1] status OK, client ready
+2022-06-20 14:50:48,098 INFO 14687 [egg-redis] instance[2] status OK, client ready
+2022-06-20 14:50:48,100 INFO 14687 [egg-watcher:application] watcher start success
+2022-06-20 14:50:48,115 INFO 14687 [egg:core] dump config after ready, 10ms
+2022-06-20 20:43:09,184 WARN 14687 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-21 06:44:18,967 WARN 14687 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-21 07:30:17,182 WARN 14687 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-21 10:23:16,423 WARN 14687 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-21 15:38:48,290 INFO 14687 [egg-logrotator] clean all log before 31 days
+2022-06-21 15:38:49,294 INFO 14687 [egg-logrotator] broadcast log-reload
+2022-06-21 15:38:49,295 INFO 14687 [egg-logrotator] rotate files success by DayRotator, files ["/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/common-error.log -> /Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/common-error.log.2022-06-20","/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/portal-node-web.log -> /Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/portal-node-web.log.2022-06-20","/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/egg-web.log -> /Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/egg-web.log.2022-06-20","/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/egg-schedule.log -> /Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/egg-schedule.log.2022-06-20","/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/egg-agent.log -> /Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/egg-agent.log.2022-06-20"]

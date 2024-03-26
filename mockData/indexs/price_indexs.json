@@ -1,0 +1,85 @@
+{
+  "url": "api/v1/option/price_indexs/:code?date=20180928&period=60",
+  "comment": "价格指数",
+  "code": "BTC-USDT",
+  "data": [
+    {
+      "timestamp": 1538209794,
+      "weighting_price":6666,
+      "prices": [
+        {
+          "source": "Bitfinex",
+          "price": 6342.4723
+        },
+        {
+          "source": "Coinbase Pro",
+          "price": 6342.4723
+        },
+        {
+          "source": "Kraken",
+          "price": 6342.4723
+        },
+        {
+          "source": "Bitstamp",
+          "price": 6342.4723
+        },
+        {
+          "source": "Bittrex",
+          "price": 6342.4723
+        }
+      ]
+    },
+    {
+      "timestamp": 1538209794,
+      "weighting_price":6666,
+      "prices": [
+        {
+          "source": "Bitfinex",
+          "price": 6342.4723
+        },
+        {
+          "source": "Coinbase Pro",
+          "price": 6342.4723
+        },
+        {
+          "source": "Kraken",
+          "price": 6342.4723
+        },
+        {
+          "source": "Bitstamp",
+          "price": 6342.4723
+        },
+        {
+          "source": "Bittrex",
+          "price": 6342.4723
+        }
+      ]
+    },
+    {
+      "timestamp": 1538209794,
+      "weighting_price":6666,
+      "prices": [
+        {
+          "source": "Bitfinex",
+          "price": 6342.4723
+        },
+        {
+          "source": "Coinbase Pro",
+          "price": 6342.4723
+        },
+        {
+          "source": "Kraken",
+          "price": 6342.4723
+        },
+        {
+          "source": "Bitstamp",
+          "price": 6342.4723
+        },
+        {
+          "source": "Bittrex",
+          "price": 6342.4723
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+2022-06-11 06:25:30,311 ERROR 23379 [-/127.0.0.1/-/549ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] GeneralRequest catch request error {"cause":{"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"mapi.riostox.com","host":"mapi.riostox.com","port":443},"isOperational":true,"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"mapi.riostox.com","host":"mapi.riostox.com","port":443}
+2022-06-11 06:25:30,311 ERROR 23379 [-/127.0.0.1/-/549ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] GeneralRequest error ticker {"error":{"message":"getaddrinfo ENOTFOUND mapi.riostox.com mapi.riostox.com:443"}} {}
+2022-06-11 06:25:30,311 ERROR 23379 [-/127.0.0.1/-/549ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] schedule market existed Error: getaddrinfo ENOTFOUND mapi.riostox.com mapi.riostox.com:443
+2022-06-11 07:45:05,326 ERROR 23379 [-/127.0.0.1/-/40ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] GeneralRequest catch request error {"cause":{"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"mapi.riostox.com","host":"mapi.riostox.com","port":443},"isOperational":true,"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"mapi.riostox.com","host":"mapi.riostox.com","port":443}
+2022-06-11 07:45:05,326 ERROR 23379 [-/127.0.0.1/-/41ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] GeneralRequest error ticker {"error":{"message":"getaddrinfo ENOTFOUND mapi.riostox.com mapi.riostox.com:443"}} {}
+2022-06-11 07:45:05,326 ERROR 23379 [-/127.0.0.1/-/41ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] schedule market existed Error: getaddrinfo ENOTFOUND mapi.riostox.com mapi.riostox.com:443
+2022-06-11 07:45:05,274 ERROR 22929 nodejs.ClusterClientNoResponseError: client no response in 4755064ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 22929
+hostname: talkdeMacBook-Pro.local
+
+2022-06-11 10:01:57,202 ERROR 23379 [-/127.0.0.1/-/50ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] GeneralRequest catch request error {"cause":{"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"mapi.riostox.com","host":"mapi.riostox.com","port":443},"isOperational":true,"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"mapi.riostox.com","host":"mapi.riostox.com","port":443}
+2022-06-11 10:01:57,202 ERROR 23379 [-/127.0.0.1/-/72ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] GeneralRequest error ticker {"error":{"message":"getaddrinfo ENOTFOUND mapi.riostox.com mapi.riostox.com:443"}} {}
+2022-06-11 10:01:57,202 ERROR 23379 [-/127.0.0.1/-/72ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] schedule market existed Error: getaddrinfo ENOTFOUND mapi.riostox.com mapi.riostox.com:443
+2022-06-11 10:01:57,123 ERROR 22929 nodejs.ClusterClientNoResponseError: client no response in 8211089ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 22929
+hostname: talkdeMacBook-Pro.local
+
+2022-06-11 22:51:24,318 ERROR 22929 nodejs.ClusterClientNoResponseError: client no response in 43266657ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 22929
+hostname: talkdeMacBook-Pro.local
+
+2022-06-11 23:30:04,338 ERROR 22929 nodejs.ClusterClientNoResponseError: client no response in 2319236ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 22929
+hostname: talkdeMacBook-Pro.local
+
+2022-06-11 23:30:05,852 ERROR 23379 [-/127.0.0.1/-/720ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] GeneralRequest catch request error {"cause":{"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"mapi.riostox.com","host":"mapi.riostox.com","port":443},"isOperational":true,"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"mapi.riostox.com","host":"mapi.riostox.com","port":443}
+2022-06-11 23:30:05,852 ERROR 23379 [-/127.0.0.1/-/720ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] GeneralRequest error ticker {"error":{"message":"getaddrinfo ENOTFOUND mapi.riostox.com mapi.riostox.com:443"}} {}
+2022-06-11 23:30:05,852 ERROR 23379 [-/127.0.0.1/-/720ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] schedule market existed Error: getaddrinfo ENOTFOUND mapi.riostox.com mapi.riostox.com:443
+2022-06-12 01:22:13,743 ERROR 22929 nodejs.ClusterClientNoResponseError: client no response in 6728215ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 22929
+hostname: talkdeMacBook-Pro.local
+
+2022-06-12 01:22:13,947 ERROR 23379 [-/127.0.0.1/-/506ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] GeneralRequest catch request error {"cause":{"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"mapi.riostox.com","host":"mapi.riostox.com","port":443},"isOperational":true,"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"mapi.riostox.com","host":"mapi.riostox.com","port":443}
+2022-06-12 01:22:13,949 ERROR 23379 [-/127.0.0.1/-/508ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] GeneralRequest error ticker {"error":{"message":"getaddrinfo ENOTFOUND mapi.riostox.com mapi.riostox.com:443"}} {}
+2022-06-12 01:22:13,949 ERROR 23379 [-/127.0.0.1/-/508ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] schedule market existed Error: getaddrinfo ENOTFOUND mapi.riostox.com mapi.riostox.com:443

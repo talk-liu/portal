@@ -1,0 +1,31 @@
+2022-06-03 00:31:03,734 INFO 7138 [egg-logrotator] app logger reload: got log-reload message
+2022-06-03 08:19:53,491 WARN 7138 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-06-03 08:19:53,511 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-03 08:23:41,545 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-03 10:40:17,237 INFO 7138 [-/127.0.0.1/-/0ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/zt/smm53qcj67g3syyrg5gs49lw0000gn/T/egg-multipart-tmp/portal-node"
+2022-06-03 10:40:17,239 INFO 7138 [-/127.0.0.1/-/2ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2022-06-03 20:20:34,212 WARN 7138 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-06-03 20:20:34,213 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-03 21:57:07,061 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-03 22:27:13,831 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-04 08:42:01,443 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-04 09:12:15,160 WARN 7138 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-06-04 09:12:15,160 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-04 12:46:19,004 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-04 13:57:45,755 WARN 7138 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-06-04 13:57:45,755 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-04 16:27:15,910 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-04 17:55:58,506 WARN 7138 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-06-04 17:55:58,507 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-04 21:04:54,577 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-04 22:05:20,537 WARN 7138 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-06-04 22:05:20,538 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-05 04:08:59,892 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-05 07:00:19,674 WARN 7138 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-06-05 07:00:19,677 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-05 07:46:46,925 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-05 08:57:36,992 INFO 7138 [-/127.0.0.1/-/4ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/zt/smm53qcj67g3syyrg5gs49lw0000gn/T/egg-multipart-tmp/portal-node"
+2022-06-05 08:57:36,996 INFO 7138 [-/127.0.0.1/-/8ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2022-06-05 10:06:51,178 INFO 7138 [egg-logrotator] clean all log before 31 days
+2022-06-05 10:06:52,172 INFO 7138 [egg-logrotator] broadcast log-reload
+2022-06-05 10:06:52,172 INFO 7138 [egg-logrotator] rotate files success by DayRotator, files ["/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/common-error.log -> /Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/common-error.log.2022-06-04","/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/portal-node-web.log -> /Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/portal-node-web.log.2022-06-04","/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/egg-web.log -> /Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/egg-web.log.2022-06-04","/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/egg-schedule.log -> /Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/egg-schedule.log.2022-06-04","/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/egg-agent.log -> /Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/egg-agent.log.2022-06-04"]

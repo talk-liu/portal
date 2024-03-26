@@ -1,0 +1,38 @@
+2022-06-10 08:45:01,008 ERROR 22929 nodejs.ClusterClientNoResponseError: client no response in 13792168ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 22929
+hostname: talkdeMacBook-Pro.local
+
+2022-06-10 10:30:04,848 ERROR 22929 nodejs.ClusterClientNoResponseError: client no response in 2559234ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 22929
+hostname: talkdeMacBook-Pro.local
+
+2022-06-10 13:20:35,256 ERROR 23379 [-/127.0.0.1/-/30005ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] GeneralRequest catch request error {"cause":{"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"mapi.riostox.com","host":"mapi.riostox.com","port":443},"isOperational":true,"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"mapi.riostox.com","host":"mapi.riostox.com","port":443}
+2022-06-10 13:20:35,257 ERROR 23379 [-/127.0.0.1/-/30006ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] GeneralRequest error ticker {"error":{"message":"getaddrinfo ENOTFOUND mapi.riostox.com mapi.riostox.com:443"}} {}
+2022-06-10 13:20:35,257 ERROR 23379 [-/127.0.0.1/-/30006ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] schedule market existed Error: getaddrinfo ENOTFOUND mapi.riostox.com mapi.riostox.com:443
+2022-06-10 21:30:02,431 ERROR 22929 nodejs.ClusterClientNoResponseError: client no response in 11133904ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 22929
+hostname: talkdeMacBook-Pro.local
+
+2022-06-11 06:25:29,722 ERROR 23379 [-/127.0.0.1/-/32127284ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] GeneralRequest catch request error {"cause":{"errno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","address":"13.251.78.188","port":443},"isOperational":true,"errno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","address":"13.251.78.188","port":443}
+2022-06-11 06:25:29,730 ERROR 23379 [-/127.0.0.1/-/32127292ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] GeneralRequest error ticker {"error":{"message":"connect ETIMEDOUT 13.251.78.188:443"}} {}
+2022-06-11 06:25:29,731 ERROR 23379 [-/127.0.0.1/-/32127296ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] schedule market existed Error: connect ETIMEDOUT 13.251.78.188:443
+2022-06-11 06:25:29,733 ERROR 22929 nodejs.ClusterClientNoResponseError: client no response in 32127075ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 22929
+hostname: talkdeMacBook-Pro.local
+

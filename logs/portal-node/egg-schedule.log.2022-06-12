@@ -1,0 +1,32 @@
+2022-06-12 04:10:13,022 INFO 22929 [Timer] /Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js next time will execute after 60000ms at 2022-06-12 04:11:13.022
+2022-06-12 04:10:13,036 INFO 23379 [Job#1654978212325394110533985140655] /Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js executing by app
+2022-06-12 04:10:14,539 INFO 23379 [Job#1654978212325394110533985140655] /Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js execute succeed, used 1502ms. 
+2022-06-12 05:09:14,029 INFO 23379 [Job#1654981753316397651537659291656] /Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js executing by app
+2022-06-12 05:09:14,029 INFO 23379 [Job#16549817533173976515383442233] /Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2022-06-12 05:09:14,145 INFO 23379 [Job#16549817533173976515383442233] /Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 115ms. 
+2022-06-12 05:09:13,317 INFO 22929 [Timer] /Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js next time will execute after 60000ms at 2022-06-12 05:10:13.317
+2022-06-12 05:09:13,322 INFO 22929 [Timer] /Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 84046683ms at 2022-06-13 04:30:00.004
+2022-06-12 05:09:14,342 INFO 23379 [Job#1654981753316397651537659291656] /Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js execute succeed, used 313ms. 
+2022-06-12 07:50:48,101 INFO 22929 [Timer] /Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js next time will execute after 60000ms at 2022-06-12 07:51:48.101
+2022-06-12 07:50:48,103 INFO 23379 [Job#1654991448101407346323585342657] /Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js executing by app
+2022-06-12 07:50:49,637 INFO 23379 [Job#1654991448101407346323585342657] /Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js execute succeed, used 1534ms. 
+2022-06-12 15:51:38,312 INFO 23379 [Job#1655020298305436196535159402658] /Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js executing by app
+2022-06-12 15:51:38,306 INFO 22929 [Timer] /Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js next time will execute after 60000ms at 2022-06-12 15:52:38.306
+2022-06-12 15:51:40,915 INFO 23379 [Job#1655020298305436196535159402658] /Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js execute succeed, used 2603ms. 
+2022-06-12 19:52:19,294 INFO 22929 [Timer] /Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js next time will execute after 60000ms at 2022-06-12 19:53:19.294
+2022-06-12 19:52:19,299 INFO 23379 [Job#1655034739294450637537923298659] /Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js executing by app
+2022-06-12 19:52:20,289 INFO 23379 [Job#1655034739294450637537923298659] /Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js execute succeed, used 990ms. 
+2022-06-12 21:15:03,272 INFO 22929 [Timer] /Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js next time will execute after 60000ms at 2022-06-12 21:16:03.272
+2022-06-12 21:15:03,278 INFO 23379 [Job#1655039703272455601536317239660] /Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js executing by app
+2022-06-12 21:15:04,314 INFO 23379 [Job#1655039703272455601536317239660] /Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js execute succeed, used 1036ms. 
+2022-06-13 06:45:06,245 INFO 23379 [Job#1655073906215489804487474618661] /Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js executing by app
+2022-06-13 06:45:06,250 INFO 23379 [Job#16550739062334898045038183774] /Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2022-06-13 06:45:06,419 INFO 23379 [Job#16550739062334898045038183774] /Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 168ms. 
+2022-06-13 06:45:06,486 INFO 23379 [Job#1655073906215489804487474618661] /Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js execute succeed, used 239ms. 
+2022-06-13 06:45:06,506 INFO 23379 [Job#16550739065044898047754794504] /Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2022-06-13 06:45:06,515 INFO 23379 [Job#16550739065104898047807527954] /Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2022-06-13 06:45:06,517 INFO 23379 [Job#16550739065044898047754794504] /Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 11ms. 
+2022-06-13 06:45:06,231 INFO 22929 [Timer] /Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js next time will execute after 60000ms at 2022-06-13 06:46:06.224
+2022-06-13 06:45:06,496 INFO 22929 [Timer] /Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 62093766ms at 2022-06-14 00:00:00.262
+2022-06-13 06:45:06,509 INFO 22929 [Timer] /Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 62094495ms at 2022-06-14 00:00:01.004
+2022-06-13 06:45:06,549 INFO 22929 [Timer] /Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 78293489ms at 2022-06-14 04:30:00.038

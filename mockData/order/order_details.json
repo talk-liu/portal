@@ -1,0 +1,25 @@
+{
+  "url": "/v1/option/orders/:order_id?page=1&per_page=200",
+  "comment": "订单成交详情",
+  "data": [
+    {
+      "id": 141559554,
+      "price": "0.0048",
+      "volume": "15.0",
+      "ask_id": 547620262,
+      "bid_id": 547181473,
+      "trend": "down",
+      "currency": "ateth",
+      "created_at": "2018-08-01T18:51:38.220+08:00",
+      "updated_at": "2018-08-01T18:51:38.220+08:00",
+      "funds": "0.072",
+      "base_unit": "at",
+      "quote_unit": "eth",
+      "member_id": 992,
+      "parent_id": 141559553,
+      "fee": "0.000072",
+      "amount": "0.072",
+      "side": "bid"
+    }
+  ]
+}

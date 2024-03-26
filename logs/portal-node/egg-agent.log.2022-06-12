@@ -1,0 +1,49 @@
+2022-06-12 01:22:13,961 INFO 22929 [egg-logrotator] agent logger reload: got log-reload message
+2022-06-12 04:10:13,026 ERROR 22929 nodejs.ClusterClientNoResponseError: client no response in 10058497ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 22929
+hostname: talkdeMacBook-Pro.local
+
+2022-06-12 05:09:14,004 ERROR 22929 nodejs.ClusterClientNoResponseError: client no response in 3492265ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 22929
+hostname: talkdeMacBook-Pro.local
+
+2022-06-12 07:50:48,103 ERROR 22929 nodejs.ClusterClientNoResponseError: client no response in 9673282ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 22929
+hostname: talkdeMacBook-Pro.local
+
+2022-06-12 15:51:38,312 ERROR 22929 nodejs.ClusterClientNoResponseError: client no response in 28810168ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 22929
+hostname: talkdeMacBook-Pro.local
+
+2022-06-12 19:52:19,299 ERROR 22929 nodejs.ClusterClientNoResponseError: client no response in 14440965ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 22929
+hostname: talkdeMacBook-Pro.local
+
+2022-06-12 21:15:03,278 ERROR 22929 nodejs.ClusterClientNoResponseError: client no response in 4963961ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 22929
+hostname: talkdeMacBook-Pro.local
+

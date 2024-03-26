@@ -1,0 +1,30 @@
+{
+  "url": "v1/option/position_accounts",
+  "comment": "当前持仓合约(合约资产页面使用)",
+  "data": [
+    {
+      "id": 1,
+      "contract": {
+        "type": "CallContract",
+        "code": "BTC/USD_DAY_20180930_CALL_AT",
+        "name": "name",
+        "expirate_date": "2018-10-10"
+      },
+      "long_position": "100.00",
+      "short_position": "200.00",
+      "mark": "备注"
+    },
+    {
+      "id": 1,
+      "contract": {
+        "type": "PutContract",
+        "code": "BTC/USD_DAY_20180930_PUT_AT",
+        "name": "name",
+        "expirate_date": "2018-10-10"
+      },
+      "long_position": "100.00",
+      "short_position": "200.00",
+      "mark": "备注"
+    }
+  ]
+}

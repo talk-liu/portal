@@ -1,0 +1,9 @@
+2022-06-05 13:51:27,631 ERROR 7138 [-/127.0.0.1/-/4069226ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] GeneralRequest catch request error {"cause":{"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"mapi.riostox.com","host":"mapi.riostox.com","port":443},"isOperational":true,"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"mapi.riostox.com","host":"mapi.riostox.com","port":443}
+2022-06-05 13:51:27,632 ERROR 7138 [-/127.0.0.1/-/4069244ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] GeneralRequest error ticker {"error":{"message":"getaddrinfo ENOTFOUND mapi.riostox.com mapi.riostox.com:443"}} {}
+2022-06-05 13:51:27,633 ERROR 7138 [-/127.0.0.1/-/4069245ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] schedule market existed Error: getaddrinfo ENOTFOUND mapi.riostox.com mapi.riostox.com:443
+2022-06-09 17:55:06,405 ERROR 23379 [-//-/609ms POST /graphql] getTokenByRefreshToken-error
+2022-06-09 17:55:06,418 ERROR 23379 [-//-/466ms POST /graphql] getTokenByRefreshToken-error
+2022-06-09 17:55:22,395 ERROR 23379 [-//-/485ms POST /graphql] getTokenByRefreshToken-error
+2022-06-09 17:55:32,106 ERROR 23379 [-//-/455ms POST /graphql] getTokenByRefreshToken-error
+2022-06-09 17:57:11,807 ERROR 23379 [-//-/679ms POST /graphql] GeneralRequest error userSigninWithAcl {"error":{"code":2001,"message":"login required!","reason":"login_required"}} {"session_id":"e076587d826f1ee2c82855b4e7824d4a"}
+2022-06-09 17:57:13,115 ERROR 23379 [-//-/700ms POST /graphql] GeneralRequest error userSigninWithAcl {"error":{"code":2001,"message":"login required!","reason":"login_required"}} {"session_id":"e076587d826f1ee2c82855b4e7824d4a"}

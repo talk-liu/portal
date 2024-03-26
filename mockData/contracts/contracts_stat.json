@@ -1,0 +1,9 @@
+{
+  "comment": "合约历史记录统计",
+  "url": "/v1/option/contracts_stat",
+  "data": {
+    "total_strike_amount": 1000,
+    "total_strike_volume": 1000,
+    "total_exercise_amount": 1000
+  }
+}

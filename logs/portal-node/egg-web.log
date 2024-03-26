@@ -1,0 +1,14 @@
+2022-07-01 13:46:40,072 INFO 14687 [egg-logrotator] app logger reload: got log-reload message
+2022-07-01 18:16:38,578 INFO 14687 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/zt/smm53qcj67g3syyrg5gs49lw0000gn/T/egg-multipart-tmp/portal-node"
+2022-07-01 18:16:38,581 INFO 14687 [-/127.0.0.1/-/4ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2022-07-02 06:39:52,040 WARN 14687 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-02 06:39:52,073 WARN 14687 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-02 07:00:09,649 WARN 14687 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-02 19:45:10,674 WARN 14687 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-03 07:00:06,493 WARN 14687 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-07-03 07:00:06,497 WARN 14687 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-03 08:35:25,350 WARN 14687 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-03 12:13:40,145 WARN 14687 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-03 21:30:03,896 WARN 14687 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-04 10:32:10,547 WARN 14687 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-07-04 13:11:23,513 WARN 14687 [ClusterClient:Watcher] follower closed, and try to init it again

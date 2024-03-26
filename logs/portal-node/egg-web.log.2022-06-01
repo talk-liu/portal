@@ -1,0 +1,419 @@
+2022-03-02 15:44:42,864 INFO 43775 [egg-logrotator] app logger reload: got log-reload message
+2022-03-03 06:43:24,513 WARN 43775 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-03-03 06:43:24,513 WARN 43775 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-03 10:28:29,590 WARN 43775 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-03 12:00:07,130 INFO 43775 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/zt/smm53qcj67g3syyrg5gs49lw0000gn/T/egg-multipart-tmp/portal-node"
+2022-03-03 12:00:07,134 INFO 43775 [-/127.0.0.1/-/5ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2022-03-03 12:36:14,348 WARN 43775 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-03 14:02:56,598 WARN 43775 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-03-03 14:02:56,598 WARN 43775 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-18 09:26:32,673 INFO 10811 [egg:logger] init all loggers with options: {"dir":"/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"portal-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-18 09:26:32,697 INFO 10811 [egg-multipart] file mode enable
+2022-03-18 09:26:32,697 INFO 10811 [egg-multipart] will save temporary files to "/var/folders/zt/smm53qcj67g3syyrg5gs49lw0000gn/T/egg-multipart-tmp/portal-node", cleanup job cron: "0 30 4 * * *"
+2022-03-18 09:26:32,887 INFO 10811 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-03-18 09:26:32,889 INFO 10811 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-03-18 09:26:32,889 INFO 10811 [egg-redis] server connecting redis://:***@127.0.0.1:6379/1
+2022-03-18 09:26:33,873 INFO 10811 [egg-static] starting static serve /public/ -> /Users/talk/Desktop/document/rio/exchange/portal/app/public
+2022-03-18 09:26:33,875 INFO 10811 [egg-security] use methodnoallow middleware
+2022-03-18 09:26:33,876 INFO 10811 [egg-security] use noopen middleware
+2022-03-18 09:26:33,877 INFO 10811 [egg-security] use nosniff middleware
+2022-03-18 09:26:33,877 INFO 10811 [egg-security] use xssProtection middleware
+2022-03-18 09:26:33,878 INFO 10811 [egg-security] use xframe middleware
+2022-03-18 09:26:33,879 INFO 10811 [egg-security] use dta middleware
+2022-03-18 09:26:33,879 INFO 10811 [egg-security] compose 6 middlewares into one security middleware
+2022-03-18 09:26:33,901 INFO 10811 [egg:core] dump config after load, 13ms
+2022-03-18 09:26:33,911 ERROR 10811 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2022-03-18 09:26:33,912 ERROR 10811 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1107:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 10811
+hostname: talkdeMacBook-Pro.local
+
+2022-03-18 09:26:33,913 ERROR 10811 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2022-03-18 09:26:33,914 ERROR 10811 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1107:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 10811
+hostname: talkdeMacBook-Pro.local
+
+2022-03-18 09:26:33,914 ERROR 10811 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2022-03-18 09:26:33,914 ERROR 10811 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1107:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 10811
+hostname: talkdeMacBook-Pro.local
+
+2022-03-18 09:26:33,926 INFO 10811 [egg:core] dump config after ready, 7ms
+2022-03-18 09:26:33,936 INFO 10811 [egg-watcher:application] watcher start success
+2022-03-18 09:29:06,036 INFO 10876 [egg:logger] init all loggers with options: {"dir":"/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"portal-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-18 09:29:06,055 INFO 10876 [egg-multipart] file mode enable
+2022-03-18 09:29:06,055 INFO 10876 [egg-multipart] will save temporary files to "/var/folders/zt/smm53qcj67g3syyrg5gs49lw0000gn/T/egg-multipart-tmp/portal-node", cleanup job cron: "0 30 4 * * *"
+2022-03-18 09:29:06,199 INFO 10876 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-03-18 09:29:06,201 INFO 10876 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-03-18 09:29:06,201 INFO 10876 [egg-redis] server connecting redis://:***@127.0.0.1:6379/1
+2022-03-18 09:29:06,502 INFO 10876 [egg-static] starting static serve /public/ -> /Users/talk/Desktop/document/rio/exchange/portal/app/public
+2022-03-18 09:29:06,504 INFO 10876 [egg-security] use methodnoallow middleware
+2022-03-18 09:29:06,504 INFO 10876 [egg-security] use noopen middleware
+2022-03-18 09:29:06,504 INFO 10876 [egg-security] use nosniff middleware
+2022-03-18 09:29:06,504 INFO 10876 [egg-security] use xssProtection middleware
+2022-03-18 09:29:06,505 INFO 10876 [egg-security] use xframe middleware
+2022-03-18 09:29:06,505 INFO 10876 [egg-security] use dta middleware
+2022-03-18 09:29:06,505 INFO 10876 [egg-security] compose 6 middlewares into one security middleware
+2022-03-18 09:29:06,525 INFO 10876 [egg:core] dump config after load, 14ms
+2022-03-18 09:29:06,537 INFO 10876 [egg-redis] client connect success
+2022-03-18 09:29:06,538 INFO 10876 [egg-redis] client connect success
+2022-03-18 09:29:06,538 INFO 10876 [egg-redis] client connect success
+2022-03-18 09:29:06,544 INFO 10876 [egg-redis] instance[0] status OK, client ready
+2022-03-18 09:29:06,544 INFO 10876 [egg-redis] instance[1] status OK, client ready
+2022-03-18 09:29:06,544 INFO 10876 [egg-redis] instance[2] status OK, client ready
+2022-03-18 09:29:06,547 INFO 10876 [egg-watcher:application] watcher start success
+2022-03-18 09:29:06,559 INFO 10876 [egg:core] dump config after ready, 5ms
+2022-03-18 17:33:45,319 WARN 10876 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-18 19:33:21,768 WARN 10876 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-19 08:20:13,635 WARN 10876 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-03-19 08:20:13,637 WARN 10876 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-19 17:44:01,679 WARN 10876 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-20 01:55:18,438 WARN 10876 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-03-20 01:55:18,442 WARN 10876 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-20 13:56:53,176 WARN 10876 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-03-20 13:56:53,195 WARN 10876 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-21 09:21:40,646 WARN 10876 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-21 10:06:03,327 WARN 10876 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-21 10:29:35,035 WARN 10876 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-03-21 10:29:35,802 WARN 10876 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-21 12:37:06,545 WARN 10876 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-22 00:42:39,590 WARN 10876 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-03-22 00:42:39,599 WARN 10876 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-22 11:33:41,825 WARN 10876 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-22 12:16:04,100 WARN 10876 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-22 13:51:47,139 WARN 10876 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-23 01:54:40,597 WARN 10876 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-03-23 01:54:40,602 WARN 10876 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-23 14:51:38,926 WARN 10876 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-23 15:21:40,880 WARN 10876 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-23 18:17:55,918 WARN 10876 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-23 18:43:15,948 WARN 10876 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-23 19:23:28,540 WARN 10876 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-03-23 19:23:28,540 WARN 10876 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-24 05:38:13,303 WARN 10876 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-03-24 05:38:13,315 WARN 10876 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-24 07:33:20,500 WARN 10876 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-24 09:12:24,484 WARN 10876 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-24 09:47:14,322 WARN 10876 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-24 10:43:08,438 WARN 10876 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-24 16:13:35,962 WARN 10876 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-03-24 16:13:36,102 WARN 10876 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-24 19:19:21,522 WARN 10876 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-03-24 19:19:21,522 WARN 10876 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-03-25 10:29:56,830 WARN 10876 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-03-25 10:29:56,845 WARN 10876 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-05 11:26:20,352 INFO 18597 [egg:logger] init all loggers with options: {"dir":"/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"portal-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-04-05 11:26:20,374 INFO 18597 [egg-multipart] file mode enable
+2022-04-05 11:26:20,374 INFO 18597 [egg-multipart] will save temporary files to "/var/folders/zt/smm53qcj67g3syyrg5gs49lw0000gn/T/egg-multipart-tmp/portal-node", cleanup job cron: "0 30 4 * * *"
+2022-04-05 11:26:20,600 INFO 18597 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-04-05 11:26:20,602 INFO 18597 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-04-05 11:26:20,603 INFO 18597 [egg-redis] server connecting redis://:***@127.0.0.1:6379/1
+2022-04-05 11:26:21,831 INFO 18597 [egg-static] starting static serve /public/ -> /Users/talk/Desktop/document/rio/exchange/portal/app/public
+2022-04-05 11:26:21,834 INFO 18597 [egg-security] use methodnoallow middleware
+2022-04-05 11:26:21,836 INFO 18597 [egg-security] use noopen middleware
+2022-04-05 11:26:21,837 INFO 18597 [egg-security] use nosniff middleware
+2022-04-05 11:26:21,838 INFO 18597 [egg-security] use xssProtection middleware
+2022-04-05 11:26:21,839 INFO 18597 [egg-security] use xframe middleware
+2022-04-05 11:26:21,840 INFO 18597 [egg-security] use dta middleware
+2022-04-05 11:26:21,840 INFO 18597 [egg-security] compose 6 middlewares into one security middleware
+2022-04-05 11:26:21,872 INFO 18597 [egg:core] dump config after load, 14ms
+2022-04-05 11:26:21,882 ERROR 18597 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2022-04-05 11:26:21,883 ERROR 18597 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1107:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 18597
+hostname: talkdeMacBook-Pro.local
+
+2022-04-05 11:26:21,884 ERROR 18597 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2022-04-05 11:26:21,884 ERROR 18597 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1107:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 18597
+hostname: talkdeMacBook-Pro.local
+
+2022-04-05 11:26:21,885 ERROR 18597 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2022-04-05 11:26:21,885 ERROR 18597 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1107:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 18597
+hostname: talkdeMacBook-Pro.local
+
+2022-04-05 11:26:21,899 INFO 18597 [egg:core] dump config after ready, 8ms
+2022-04-05 11:26:21,914 INFO 18597 [egg-watcher:application] watcher start success
+2022-04-05 11:26:50,160 INFO 18728 [egg:logger] init all loggers with options: {"dir":"/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"portal-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-04-05 11:26:50,187 INFO 18728 [egg-multipart] file mode enable
+2022-04-05 11:26:50,187 INFO 18728 [egg-multipart] will save temporary files to "/var/folders/zt/smm53qcj67g3syyrg5gs49lw0000gn/T/egg-multipart-tmp/portal-node", cleanup job cron: "0 30 4 * * *"
+2022-04-05 11:26:50,395 INFO 18728 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-04-05 11:26:50,398 INFO 18728 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-04-05 11:26:50,398 INFO 18728 [egg-redis] server connecting redis://:***@127.0.0.1:6379/1
+2022-04-05 11:26:50,853 INFO 18728 [egg-static] starting static serve /public/ -> /Users/talk/Desktop/document/rio/exchange/portal/app/public
+2022-04-05 11:26:50,855 INFO 18728 [egg-security] use methodnoallow middleware
+2022-04-05 11:26:50,856 INFO 18728 [egg-security] use noopen middleware
+2022-04-05 11:26:50,856 INFO 18728 [egg-security] use nosniff middleware
+2022-04-05 11:26:50,856 INFO 18728 [egg-security] use xssProtection middleware
+2022-04-05 11:26:50,857 INFO 18728 [egg-security] use xframe middleware
+2022-04-05 11:26:50,857 INFO 18728 [egg-security] use dta middleware
+2022-04-05 11:26:50,857 INFO 18728 [egg-security] compose 6 middlewares into one security middleware
+2022-04-05 11:26:50,879 INFO 18728 [egg:core] dump config after load, 11ms
+2022-04-05 11:26:50,891 INFO 18728 [egg-redis] client connect success
+2022-04-05 11:26:50,892 INFO 18728 [egg-redis] client connect success
+2022-04-05 11:26:50,892 INFO 18728 [egg-redis] client connect success
+2022-04-05 11:26:50,899 INFO 18728 [egg-redis] instance[0] status OK, client ready
+2022-04-05 11:26:50,900 INFO 18728 [egg-redis] instance[1] status OK, client ready
+2022-04-05 11:26:50,900 INFO 18728 [egg-redis] instance[2] status OK, client ready
+2022-04-05 11:26:50,903 INFO 18728 [egg-watcher:application] watcher start success
+2022-04-05 11:26:50,925 INFO 18728 [egg:core] dump config after ready, 16ms
+2022-04-05 11:31:11,263 INFO 18935 [egg:logger] init all loggers with options: {"dir":"/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"portal-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-04-05 11:31:11,288 INFO 18935 [egg-multipart] file mode enable
+2022-04-05 11:31:11,288 INFO 18935 [egg-multipart] will save temporary files to "/var/folders/zt/smm53qcj67g3syyrg5gs49lw0000gn/T/egg-multipart-tmp/portal-node", cleanup job cron: "0 30 4 * * *"
+2022-04-05 11:31:11,470 INFO 18935 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-04-05 11:31:11,472 INFO 18935 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-04-05 11:31:11,473 INFO 18935 [egg-redis] server connecting redis://:***@127.0.0.1:6379/1
+2022-04-05 11:31:11,896 INFO 18935 [egg-static] starting static serve /public/ -> /Users/talk/Desktop/document/rio/exchange/portal/app/public
+2022-04-05 11:31:11,898 INFO 18935 [egg-security] use methodnoallow middleware
+2022-04-05 11:31:11,899 INFO 18935 [egg-security] use noopen middleware
+2022-04-05 11:31:11,899 INFO 18935 [egg-security] use nosniff middleware
+2022-04-05 11:31:11,900 INFO 18935 [egg-security] use xssProtection middleware
+2022-04-05 11:31:11,900 INFO 18935 [egg-security] use xframe middleware
+2022-04-05 11:31:11,900 INFO 18935 [egg-security] use dta middleware
+2022-04-05 11:31:11,900 INFO 18935 [egg-security] compose 6 middlewares into one security middleware
+2022-04-05 11:31:11,928 INFO 18935 [egg:core] dump config after load, 13ms
+2022-04-05 11:31:11,939 INFO 18935 [egg-redis] client connect success
+2022-04-05 11:31:11,939 INFO 18935 [egg-redis] client connect success
+2022-04-05 11:31:11,940 INFO 18935 [egg-redis] client connect success
+2022-04-05 11:31:11,944 INFO 18935 [egg-redis] instance[0] status OK, client ready
+2022-04-05 11:31:11,945 INFO 18935 [egg-redis] instance[1] status OK, client ready
+2022-04-05 11:31:11,945 INFO 18935 [egg-redis] instance[2] status OK, client ready
+2022-04-05 11:31:11,948 INFO 18935 [egg-watcher:application] watcher start success
+2022-04-05 11:31:11,957 INFO 18935 [egg:core] dump config after ready, 6ms
+2022-04-05 11:33:15,700 INFO 920 [egg:logger] init all loggers with options: {"dir":"/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"portal-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-04-05 11:33:15,738 INFO 920 [egg-multipart] file mode enable
+2022-04-05 11:33:15,738 INFO 920 [egg-multipart] will save temporary files to "/var/folders/zt/smm53qcj67g3syyrg5gs49lw0000gn/T/egg-multipart-tmp/portal-node", cleanup job cron: "0 30 4 * * *"
+2022-04-05 11:33:16,055 INFO 920 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-04-05 11:33:16,060 INFO 920 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-04-05 11:33:16,061 INFO 920 [egg-redis] server connecting redis://:***@127.0.0.1:6379/1
+2022-04-05 11:33:17,125 INFO 920 [egg-static] starting static serve /public/ -> /Users/talk/Desktop/document/rio/exchange/portal/app/public
+2022-04-05 11:33:17,129 INFO 920 [egg-security] use methodnoallow middleware
+2022-04-05 11:33:17,130 INFO 920 [egg-security] use noopen middleware
+2022-04-05 11:33:17,132 INFO 920 [egg-security] use nosniff middleware
+2022-04-05 11:33:17,133 INFO 920 [egg-security] use xssProtection middleware
+2022-04-05 11:33:17,134 INFO 920 [egg-security] use xframe middleware
+2022-04-05 11:33:17,135 INFO 920 [egg-security] use dta middleware
+2022-04-05 11:33:17,135 INFO 920 [egg-security] compose 6 middlewares into one security middleware
+2022-04-05 11:33:17,172 INFO 920 [egg:core] dump config after load, 22ms
+2022-04-05 11:33:17,191 INFO 920 [egg-redis] client connect success
+2022-04-05 11:33:17,193 INFO 920 [egg-redis] client connect success
+2022-04-05 11:33:17,194 INFO 920 [egg-redis] client connect success
+2022-04-05 11:33:17,211 INFO 920 [egg-redis] instance[0] status OK, client ready
+2022-04-05 11:33:17,212 INFO 920 [egg-redis] instance[2] status OK, client ready
+2022-04-05 11:33:17,213 INFO 920 [egg-redis] instance[1] status OK, client ready
+2022-04-05 11:33:17,218 INFO 920 [egg-watcher:application] watcher start success
+2022-04-05 11:33:17,244 INFO 920 [egg:core] dump config after ready, 12ms
+2022-04-05 11:36:59,992 WARN 920 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-05 12:17:42,501 WARN 920 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-05 15:28:32,115 WARN 920 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-04-05 15:28:32,115 WARN 920 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-05 16:45:54,795 WARN 920 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-04-05 16:45:54,795 WARN 920 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-05 16:53:39,037 WARN 920 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-04-05 16:53:39,038 WARN 920 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-05 20:13:51,519 WARN 920 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-05 20:54:00,307 WARN 920 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-04-05 20:54:00,308 WARN 920 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-05 22:05:57,593 WARN 920 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-04-05 22:05:57,593 WARN 920 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-06 10:28:06,042 WARN 920 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-06 11:09:38,445 WARN 920 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-06 15:36:55,485 WARN 920 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-04-06 15:36:55,486 WARN 920 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-06 19:06:17,195 WARN 920 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-04-06 19:06:17,196 WARN 920 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-06 19:39:06,826 WARN 920 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-04-06 19:39:06,827 WARN 920 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-06 21:02:41,367 WARN 920 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-07 09:12:09,697 WARN 920 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-04-07 09:12:09,710 WARN 920 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-07 15:46:05,906 WARN 920 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-07 16:15:28,044 WARN 920 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-07 17:21:08,208 WARN 920 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-07 17:41:50,347 WARN 920 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-07 17:45:57,645 WARN 920 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-07 18:02:22,745 WARN 920 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-04-07 18:02:22,746 WARN 920 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-08 06:18:46,542 WARN 920 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-04-08 06:18:46,545 WARN 920 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-08 14:13:35,358 WARN 920 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-09 02:38:49,672 WARN 920 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-04-09 02:38:49,676 WARN 920 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-10 08:27:18,507 WARN 920 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-10 08:29:51,595 WARN 920 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-10 20:31:03,505 WARN 920 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-04-10 20:31:03,507 WARN 920 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-11 09:15:02,708 WARN 920 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-11 13:27:21,985 WARN 920 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-11 14:06:34,430 WARN 920 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-11 14:47:10,997 WARN 920 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-11 19:00:00,782 WARN 920 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-04-11 19:00:00,783 WARN 920 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-12 10:53:00,447 WARN 920 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-04-12 10:53:00,472 WARN 920 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-11 09:34:48,174 INFO 6136 [egg:logger] init all loggers with options: {"dir":"/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"portal-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-11 09:34:48,194 INFO 6136 [egg-multipart] file mode enable
+2022-05-11 09:34:48,194 INFO 6136 [egg-multipart] will save temporary files to "/var/folders/zt/smm53qcj67g3syyrg5gs49lw0000gn/T/egg-multipart-tmp/portal-node", cleanup job cron: "0 30 4 * * *"
+2022-05-11 09:34:48,385 INFO 6136 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-05-11 09:34:48,387 INFO 6136 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-05-11 09:34:48,387 INFO 6136 [egg-redis] server connecting redis://:***@127.0.0.1:6379/1
+2022-05-11 09:34:49,565 INFO 6136 [egg-static] starting static serve /public/ -> /Users/talk/Desktop/document/rio/exchange/portal/app/public
+2022-05-11 09:34:49,568 INFO 6136 [egg-security] use methodnoallow middleware
+2022-05-11 09:34:49,569 INFO 6136 [egg-security] use noopen middleware
+2022-05-11 09:34:49,570 INFO 6136 [egg-security] use nosniff middleware
+2022-05-11 09:34:49,572 INFO 6136 [egg-security] use xssProtection middleware
+2022-05-11 09:34:49,573 INFO 6136 [egg-security] use xframe middleware
+2022-05-11 09:34:49,574 INFO 6136 [egg-security] use dta middleware
+2022-05-11 09:34:49,574 INFO 6136 [egg-security] compose 6 middlewares into one security middleware
+2022-05-11 09:34:49,599 INFO 6136 [egg:core] dump config after load, 11ms
+2022-05-11 09:34:49,612 INFO 6136 [egg-redis] client connect success
+2022-05-11 09:34:49,613 INFO 6136 [egg-redis] client connect success
+2022-05-11 09:34:49,614 INFO 6136 [egg-redis] client connect success
+2022-05-11 09:34:49,619 INFO 6136 [egg-redis] instance[0] status OK, client ready
+2022-05-11 09:34:49,619 INFO 6136 [egg-redis] instance[1] status OK, client ready
+2022-05-11 09:34:49,620 INFO 6136 [egg-redis] instance[2] status OK, client ready
+2022-05-11 09:34:49,622 INFO 6136 [egg-watcher:application] watcher start success
+2022-05-11 09:34:49,636 INFO 6136 [egg:core] dump config after ready, 10ms
+2022-05-11 09:39:16,941 INFO 6404 [egg:logger] init all loggers with options: {"dir":"/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"portal-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-11 09:39:16,976 INFO 6404 [egg-multipart] file mode enable
+2022-05-11 09:39:16,976 INFO 6404 [egg-multipart] will save temporary files to "/var/folders/zt/smm53qcj67g3syyrg5gs49lw0000gn/T/egg-multipart-tmp/portal-node", cleanup job cron: "0 30 4 * * *"
+2022-05-11 09:39:17,262 INFO 6404 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-05-11 09:39:17,264 INFO 6404 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-05-11 09:39:17,264 INFO 6404 [egg-redis] server connecting redis://:***@127.0.0.1:6379/1
+2022-05-11 09:39:17,840 INFO 6404 [egg-static] starting static serve /public/ -> /Users/talk/Desktop/document/rio/exchange/portal/app/public
+2022-05-11 09:39:17,842 INFO 6404 [egg-security] use methodnoallow middleware
+2022-05-11 09:39:17,843 INFO 6404 [egg-security] use noopen middleware
+2022-05-11 09:39:17,843 INFO 6404 [egg-security] use nosniff middleware
+2022-05-11 09:39:17,843 INFO 6404 [egg-security] use xssProtection middleware
+2022-05-11 09:39:17,844 INFO 6404 [egg-security] use xframe middleware
+2022-05-11 09:39:17,844 INFO 6404 [egg-security] use dta middleware
+2022-05-11 09:39:17,844 INFO 6404 [egg-security] compose 6 middlewares into one security middleware
+2022-05-11 09:39:17,867 INFO 6404 [egg:core] dump config after load, 13ms
+2022-05-11 09:39:17,877 INFO 6404 [egg-redis] client connect success
+2022-05-11 09:39:17,877 INFO 6404 [egg-redis] client connect success
+2022-05-11 09:39:17,878 INFO 6404 [egg-redis] client connect success
+2022-05-11 09:39:17,882 INFO 6404 [egg-redis] instance[0] status OK, client ready
+2022-05-11 09:39:17,882 INFO 6404 [egg-redis] instance[1] status OK, client ready
+2022-05-11 09:39:17,883 INFO 6404 [egg-redis] instance[2] status OK, client ready
+2022-05-11 09:39:17,887 INFO 6404 [egg-watcher:application] watcher start success
+2022-05-11 09:39:17,899 INFO 6404 [egg:core] dump config after ready, 8ms
+2022-05-11 10:00:44,457 WARN 6404 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-11 10:02:37,729 WARN 6404 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-11 10:37:44,947 WARN 6404 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-11 11:13:55,109 WARN 6404 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-11 12:21:03,694 WARN 6404 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-05-11 12:21:03,695 WARN 6404 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-11 17:12:49,339 WARN 6404 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-12 05:41:13,375 WARN 6404 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-05-12 05:41:13,543 WARN 6404 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-12 09:48:33,980 WARN 6404 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-05-12 09:48:33,984 WARN 6404 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-12 16:28:06,954 WARN 6404 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-05-12 16:28:07,063 WARN 6404 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-13 05:09:59,424 WARN 6404 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-05-13 05:09:59,435 WARN 6404 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-13 09:17:55,257 WARN 6404 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-13 09:56:22,055 WARN 6404 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-13 10:48:44,846 WARN 6404 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-13 11:14:04,733 WARN 6404 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-05-13 11:14:04,737 WARN 6404 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-13 11:36:41,056 WARN 6404 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-13 14:37:30,423 WARN 6404 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-05-13 14:37:30,423 WARN 6404 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-31 08:39:02,349 INFO 7138 [egg:logger] init all loggers with options: {"dir":"/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"portal-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-31 08:39:02,369 INFO 7138 [egg-multipart] file mode enable
+2022-05-31 08:39:02,369 INFO 7138 [egg-multipart] will save temporary files to "/var/folders/zt/smm53qcj67g3syyrg5gs49lw0000gn/T/egg-multipart-tmp/portal-node", cleanup job cron: "0 30 4 * * *"
+2022-05-31 08:39:02,562 INFO 7138 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-05-31 08:39:02,564 INFO 7138 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-05-31 08:39:02,564 INFO 7138 [egg-redis] server connecting redis://:***@127.0.0.1:6379/1
+2022-05-31 08:39:03,349 INFO 7138 [egg-static] starting static serve /public/ -> /Users/talk/Desktop/document/rio/exchange/portal/app/public
+2022-05-31 08:39:03,351 INFO 7138 [egg-security] use methodnoallow middleware
+2022-05-31 08:39:03,351 INFO 7138 [egg-security] use noopen middleware
+2022-05-31 08:39:03,352 INFO 7138 [egg-security] use nosniff middleware
+2022-05-31 08:39:03,353 INFO 7138 [egg-security] use xssProtection middleware
+2022-05-31 08:39:03,354 INFO 7138 [egg-security] use xframe middleware
+2022-05-31 08:39:03,354 INFO 7138 [egg-security] use dta middleware
+2022-05-31 08:39:03,354 INFO 7138 [egg-security] compose 6 middlewares into one security middleware
+2022-05-31 08:39:03,378 INFO 7138 [egg:core] dump config after load, 13ms
+2022-05-31 08:39:03,390 INFO 7138 [egg-redis] client connect success
+2022-05-31 08:39:03,390 INFO 7138 [egg-redis] client connect success
+2022-05-31 08:39:03,391 INFO 7138 [egg-redis] client connect success
+2022-05-31 08:39:03,398 INFO 7138 [egg-redis] instance[0] status OK, client ready
+2022-05-31 08:39:03,398 INFO 7138 [egg-redis] instance[1] status OK, client ready
+2022-05-31 08:39:03,399 INFO 7138 [egg-redis] instance[2] status OK, client ready
+2022-05-31 08:39:03,402 INFO 7138 [egg-watcher:application] watcher start success
+2022-05-31 08:39:03,417 INFO 7138 [egg:core] dump config after ready, 5ms
+2022-05-31 10:43:20,274 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-31 12:54:48,263 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-31 13:25:14,724 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-31 18:38:39,566 WARN 7138 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-05-31 18:38:39,569 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-31 19:19:48,255 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-31 19:23:06,058 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-31 20:32:02,802 WARN 7138 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-05-31 20:32:02,803 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-31 21:21:18,549 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-01 06:57:18,008 WARN 7138 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-06-01 06:57:18,015 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-01 07:56:15,050 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-01 08:43:53,308 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-01 09:28:15,509 WARN 7138 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-06-01 09:28:15,513 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-01 09:59:31,570 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-01 13:58:43,594 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-01 20:13:48,371 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-01 21:34:04,354 WARN 7138 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-06-01 21:34:04,367 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-01 22:11:05,722 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-01 22:15:12,053 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-02 06:48:13,615 WARN 7138 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-06-02 06:48:13,622 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-02 09:12:52,594 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-02 09:34:32,067 WARN 7138 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-06-02 09:34:32,067 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-02 10:01:13,653 WARN 7138 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-02 13:19:08,166 INFO 7138 [egg-logrotator] start remove /Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node files: common-error.log.2022-02-14, common-error.log.2022-02-15, common-error.log.2022-02-16, common-error.log.2022-03-01, egg-agent.log.2022-02-14, egg-agent.log.2022-02-15, egg-agent.log.2022-02-16, egg-agent.log.2022-03-01, egg-schedule.log.2022-02-14, egg-schedule.log.2022-02-15, egg-schedule.log.2022-02-16, egg-schedule.log.2022-03-01, egg-web.log.2022-02-14, egg-web.log.2022-02-15, egg-web.log.2022-02-16, egg-web.log.2022-03-01, portal-node-web.log.2022-02-14, portal-node-web.log.2022-02-15, portal-node-web.log.2022-02-16, portal-node-web.log.2022-03-01
+2022-06-02 13:19:08,237 INFO 7138 [egg-logrotator] clean all log before 31 days
+2022-06-02 13:19:09,135 INFO 7138 [egg-logrotator] broadcast log-reload
+2022-06-02 13:19:09,135 INFO 7138 [egg-logrotator] rotate files success by DayRotator, files ["/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/common-error.log -> /Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/common-error.log.2022-06-01","/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/portal-node-web.log -> /Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/portal-node-web.log.2022-06-01","/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/egg-web.log -> /Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/egg-web.log.2022-06-01","/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/egg-schedule.log -> /Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/egg-schedule.log.2022-06-01","/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/egg-agent.log -> /Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/egg-agent.log.2022-06-01"]

@@ -1,0 +1,43 @@
+2022-06-05 13:51:23,792 ERROR 7137 nodejs.ClusterClientNoResponseError: client no response in 4081362ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 7137
+hostname: talkdeMacBook-Pro.local
+
+2022-06-05 13:51:27,615 ERROR 7138 [-/127.0.0.1/-/4069226ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] GeneralRequest catch request error {"cause":{"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"mapi.riostox.com","host":"mapi.riostox.com","port":443},"isOperational":true,"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"mapi.riostox.com","host":"mapi.riostox.com","port":443}
+2022-06-05 13:51:27,632 ERROR 7138 [-/127.0.0.1/-/4069244ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] GeneralRequest error ticker {"error":{"message":"getaddrinfo ENOTFOUND mapi.riostox.com mapi.riostox.com:443"}} {}
+2022-06-05 13:51:27,633 ERROR 7138 [-/127.0.0.1/-/4069245ms SCHEDULE /__schedule?path=/Users/talk/Desktop/document/rio/exchange/portal/app/schedule/updateMarkets.js&interval=1m&type=worker] schedule market existed Error: getaddrinfo ENOTFOUND mapi.riostox.com mapi.riostox.com:443
+2022-06-09 17:55:06,405 ERROR 23379 [-//-/609ms POST /graphql] getTokenByRefreshToken-error
+2022-06-09 17:55:06,418 ERROR 23379 [-//-/466ms POST /graphql] getTokenByRefreshToken-error
+2022-06-09 17:55:22,395 ERROR 23379 [-//-/485ms POST /graphql] getTokenByRefreshToken-error
+2022-06-09 17:55:32,106 ERROR 23379 [-//-/455ms POST /graphql] getTokenByRefreshToken-error
+2022-06-09 17:57:11,807 ERROR 23379 [-//-/679ms POST /graphql] GeneralRequest error userSigninWithAcl {"error":{"code":2001,"message":"login required!","reason":"login_required"}} {"session_id":"e076587d826f1ee2c82855b4e7824d4a"}
+2022-06-09 17:57:13,115 ERROR 23379 [-//-/700ms POST /graphql] GeneralRequest error userSigninWithAcl {"error":{"code":2001,"message":"login required!","reason":"login_required"}} {"session_id":"e076587d826f1ee2c82855b4e7824d4a"}
+2022-06-09 19:12:21,831 ERROR 22929 nodejs.ClusterClientNoResponseError: client no response in 2106119ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 22929
+hostname: talkdeMacBook-Pro.local
+
+2022-06-09 22:28:27,050 ERROR 22929 nodejs.ClusterClientNoResponseError: client no response in 11725161ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 22929
+hostname: talkdeMacBook-Pro.local
+
+2022-06-10 04:54:07,827 ERROR 22929 nodejs.ClusterClientNoResponseError: client no response in 22952311ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 22929
+hostname: talkdeMacBook-Pro.local
+

@@ -1,0 +1,20 @@
+{
+  "method": "POST",
+  "url": "/v1/option/transfers",
+  "comment": "资金划转",
+  "postBody": {
+    "currency_code": "at",
+    "to_account": "OptionAccount",
+    "from_account": "ExchangeAccount",
+    "amount": 1000
+  },
+  "data": {
+    "option_currency": {
+      "code": "AT",
+      "readable_name": "riostox token"
+    },
+    "amount": 2000,
+    "balance": 1000,
+    "lock": 1000
+  }
+}

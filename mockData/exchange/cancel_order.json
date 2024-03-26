@@ -1,0 +1,17 @@
+{
+  "url": "/v1/option/orders/:order_id/cancel",
+  "comment": "撤单",
+  "data": {
+    "created_at": "2018-02-11",
+    "market_code": "BTC/USD_DAY_20180930_CALL_AT",
+    "side": "sell",
+    "state": "wait",
+    "ord_type": "limit",
+    "price": "1",
+    "avg_price": "1",
+    "volume": 1,
+    "remaining_volume": 1,
+    "executed_volume": 1,
+    "trades_count": 1
+  }
+}

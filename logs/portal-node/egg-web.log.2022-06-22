@@ -1,0 +1,8 @@
+2022-06-22 16:15:41,448 INFO 14687 [egg-logrotator] app logger reload: got log-reload message
+2022-06-23 06:31:38,820 WARN 14687 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-06-23 06:31:38,832 WARN 14687 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-23 08:00:09,861 WARN 14687 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-23 10:24:57,861 WARN 14687 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-06-23 15:53:15,274 INFO 14687 [egg-logrotator] clean all log before 31 days
+2022-06-23 15:53:16,260 INFO 14687 [egg-logrotator] broadcast log-reload
+2022-06-23 15:53:16,260 INFO 14687 [egg-logrotator] rotate files success by DayRotator, files ["/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/common-error.log -> /Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/common-error.log.2022-06-22","/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/portal-node-web.log -> /Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/portal-node-web.log.2022-06-22","/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/egg-web.log -> /Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/egg-web.log.2022-06-22","/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/egg-schedule.log -> /Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/egg-schedule.log.2022-06-22","/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/egg-agent.log -> /Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node/egg-agent.log.2022-06-22"]

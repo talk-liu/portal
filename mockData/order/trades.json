@@ -1,0 +1,16 @@
+{
+  "url": "/v1/option/members/trades?per_page=1&page=1&direction=DESC",
+  "comment": "当前用户历史成交列表",
+  "data": [
+    {
+      "fee": "0.1",
+      "order_id": "1",
+      "side": "buy",
+      "created_at": "2018-09-28 13:10:37",
+      "market_code": "BTC/USD_DAY_20180930_CALL_AT",
+      "funds": "9.2",
+      "volume": "10.01",
+      "price": "1"
+    }
+  ]
+}

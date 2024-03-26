@@ -1,0 +1,57 @@
+2022-06-05 10:06:52,183 INFO 7137 [egg-logrotator] agent logger reload: got log-reload message
+2022-06-05 13:51:23,944 ERROR 7137 nodejs.ClusterClientNoResponseError: client no response in 4081362ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 7137
+hostname: talkdeMacBook-Pro.local
+
+2022-06-09 17:42:44,006 INFO 22929 [egg:logger] init all loggers with options: {"dir":"/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"portal-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-06-09 17:42:44,336 INFO 22929 [egg:core] dump config after load, 11ms
+2022-06-09 17:42:44,389 INFO 22929 [egg-watcher] Start watching: ["/Users/talk/Desktop/document/rio/exchange/portal/app","/Users/talk/Desktop/document/rio/exchange/portal/config","/Users/talk/Desktop/document/rio/exchange/portal/mocks","/Users/talk/Desktop/document/rio/exchange/portal/mocks_proxy","/Users/talk/Desktop/document/rio/exchange/portal/app.js"]
+2022-06-09 17:42:44,389 INFO 22929 [egg-watcher] Start watching: "/Users/talk/Desktop/document/rio/exchange/portal/app"
+2022-06-09 17:42:44,389 INFO 22929 [egg-watcher] Start watching: "/Users/talk/Desktop/document/rio/exchange/portal/config"
+2022-06-09 17:42:44,389 INFO 22929 [egg-watcher] Start watching: "/Users/talk/Desktop/document/rio/exchange/portal/mocks"
+2022-06-09 17:42:44,389 INFO 22929 [egg-watcher] Start watching: "/Users/talk/Desktop/document/rio/exchange/portal/mocks_proxy"
+2022-06-09 17:42:44,389 INFO 22929 [egg-watcher] Start watching: "/Users/talk/Desktop/document/rio/exchange/portal/app.js"
+2022-06-09 17:42:44,390 INFO 22929 [egg-watcher:agent] watcher start success
+2022-06-09 17:42:44,412 INFO 22929 [egg:core] dump config after ready, 6ms
+2022-06-09 17:54:05,450 INFO 22929 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/talk/Desktop/document/rio/exchange/portal/config/config.local.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17071947,"size":2939,"blocks":8,"atimeMs":1654768445434.6335,"mtimeMs":1654768445387.2092,"ctimeMs":1654768445387.2092,"birthtimeMs":1623826748164.6628,"atime":"2022-06-09T09:54:05.435Z","mtime":"2022-06-09T09:54:05.387Z","ctime":"2022-06-09T09:54:05.387Z","birthtime":"2021-06-16T06:59:08.165Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-06-09 17:54:05,559 INFO 22929 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/talk/Desktop/document/rio/exchange/portal/config/config.local.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17071947,"size":2939,"blocks":8,"atimeMs":1654768445434.6335,"mtimeMs":1654768445548.9265,"ctimeMs":1654768445548.9265,"birthtimeMs":1623826748164.6628,"atime":"2022-06-09T09:54:05.435Z","mtime":"2022-06-09T09:54:05.549Z","ctime":"2022-06-09T09:54:05.549Z","birthtime":"2021-06-16T06:59:08.165Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-06-09 17:54:05,610 INFO 22929 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/talk/Desktop/document/rio/exchange/portal/config/config.local.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17071947,"size":2939,"blocks":8,"atimeMs":1654768445579.3613,"mtimeMs":1654768445548.9265,"ctimeMs":1654768445548.9265,"birthtimeMs":1623826748164.6628,"atime":"2022-06-09T09:54:05.579Z","mtime":"2022-06-09T09:54:05.549Z","ctime":"2022-06-09T09:54:05.549Z","birthtime":"2021-06-16T06:59:08.165Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-06-09 17:54:05,815 WARN 22929 [agent:development] reload worker because /Users/talk/Desktop/document/rio/exchange/portal/config/config.local.js change
+2022-06-09 17:54:08,574 INFO 22929 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/talk/Desktop/document/rio/exchange/portal/config/config.local.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17071947,"size":2939,"blocks":8,"atimeMs":1654768446498.2173,"mtimeMs":1654768448573.0532,"ctimeMs":1654768448573.0532,"birthtimeMs":1623826748164.6628,"atime":"2022-06-09T09:54:06.498Z","mtime":"2022-06-09T09:54:08.573Z","ctime":"2022-06-09T09:54:08.573Z","birthtime":"2021-06-16T06:59:08.165Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-06-09 17:54:08,624 INFO 22929 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/talk/Desktop/document/rio/exchange/portal/config/config.local.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17071947,"size":2939,"blocks":8,"atimeMs":1654768446498.2173,"mtimeMs":1654768448573.0532,"ctimeMs":1654768448573.0532,"birthtimeMs":1623826748164.6628,"atime":"2022-06-09T09:54:06.498Z","mtime":"2022-06-09T09:54:08.573Z","ctime":"2022-06-09T09:54:08.573Z","birthtime":"2021-06-16T06:59:08.165Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-06-09 17:54:09,377 WARN 22929 [agent:development] reload worker because /Users/talk/Desktop/document/rio/exchange/portal/config/config.local.js change
+2022-06-09 17:54:08,784 INFO 22929 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/talk/Desktop/document/rio/exchange/portal/config/config.local.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17071947,"size":2939,"blocks":8,"atimeMs":1654768448730.9976,"mtimeMs":1654768448772.896,"ctimeMs":1654768448772.896,"birthtimeMs":1623826748164.6628,"atime":"2022-06-09T09:54:08.731Z","mtime":"2022-06-09T09:54:08.773Z","ctime":"2022-06-09T09:54:08.773Z","birthtime":"2021-06-16T06:59:08.165Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-06-09 17:54:08,834 INFO 22929 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/talk/Desktop/document/rio/exchange/portal/config/config.local.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17071947,"size":2939,"blocks":8,"atimeMs":1654768448730.9976,"mtimeMs":1654768448772.896,"ctimeMs":1654768448772.896,"birthtimeMs":1623826748164.6628,"atime":"2022-06-09T09:54:08.731Z","mtime":"2022-06-09T09:54:08.773Z","ctime":"2022-06-09T09:54:08.773Z","birthtime":"2021-06-16T06:59:08.165Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-06-09 17:54:08,958 INFO 22929 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/talk/Desktop/document/rio/exchange/portal/config/config.local.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17071947,"size":2939,"blocks":8,"atimeMs":1654768448887.128,"mtimeMs":1654768448947.996,"ctimeMs":1654768448947.996,"birthtimeMs":1623826748164.6628,"atime":"2022-06-09T09:54:08.887Z","mtime":"2022-06-09T09:54:08.948Z","ctime":"2022-06-09T09:54:08.948Z","birthtime":"2021-06-16T06:59:08.165Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-06-09 17:54:09,120 INFO 22929 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/talk/Desktop/document/rio/exchange/portal/config/config.local.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17071947,"size":2939,"blocks":8,"atimeMs":1654768449047.324,"mtimeMs":1654768449108.6304,"ctimeMs":1654768449108.6304,"birthtimeMs":1623826748164.6628,"atime":"2022-06-09T09:54:09.047Z","mtime":"2022-06-09T09:54:09.109Z","ctime":"2022-06-09T09:54:09.109Z","birthtime":"2021-06-16T06:59:08.165Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-06-09 17:54:09,172 INFO 22929 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/talk/Desktop/document/rio/exchange/portal/config/config.local.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17071947,"size":2939,"blocks":8,"atimeMs":1654768449047.324,"mtimeMs":1654768449108.6304,"ctimeMs":1654768449108.6304,"birthtimeMs":1623826748164.6628,"atime":"2022-06-09T09:54:09.047Z","mtime":"2022-06-09T09:54:09.109Z","ctime":"2022-06-09T09:54:09.109Z","birthtime":"2021-06-16T06:59:08.165Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-06-09 19:12:21,832 ERROR 22929 nodejs.ClusterClientNoResponseError: client no response in 2106119ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 22929
+hostname: talkdeMacBook-Pro.local
+
+2022-06-09 22:28:27,051 ERROR 22929 nodejs.ClusterClientNoResponseError: client no response in 11725161ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 22929
+hostname: talkdeMacBook-Pro.local
+
+2022-06-10 04:54:07,827 ERROR 22929 nodejs.ClusterClientNoResponseError: client no response in 22952311ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 22929
+hostname: talkdeMacBook-Pro.local
+

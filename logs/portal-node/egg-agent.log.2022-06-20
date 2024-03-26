@@ -1,0 +1,91 @@
+2022-06-16 15:34:15,284 INFO 24820 [egg-logrotator] agent logger reload: got log-reload message
+2022-06-16 19:14:13,727 ERROR 24820 nodejs.ClusterClientNoResponseError: client no response in 1905430ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 24820
+hostname: talkdeMacBook-Pro.local
+
+2022-06-16 23:07:45,778 ERROR 24820 nodejs.ClusterClientNoResponseError: client no response in 2134605ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 24820
+hostname: talkdeMacBook-Pro.local
+
+2022-06-17 09:00:17,254 ERROR 24820 nodejs.ClusterClientNoResponseError: client no response in 35510934ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 24820
+hostname: talkdeMacBook-Pro.local
+
+2022-06-20 14:20:28,186 INFO 13637 [egg:logger] init all loggers with options: {"dir":"/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"portal-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-06-20 14:20:28,612 INFO 13637 [egg:core] dump config after load, 25ms
+2022-06-20 14:20:28,682 INFO 13637 [egg-watcher] Start watching: ["/Users/talk/Desktop/document/rio/exchange/portal/app","/Users/talk/Desktop/document/rio/exchange/portal/config","/Users/talk/Desktop/document/rio/exchange/portal/mocks","/Users/talk/Desktop/document/rio/exchange/portal/mocks_proxy","/Users/talk/Desktop/document/rio/exchange/portal/app.js"]
+2022-06-20 14:20:28,682 INFO 13637 [egg-watcher] Start watching: "/Users/talk/Desktop/document/rio/exchange/portal/app"
+2022-06-20 14:20:28,683 INFO 13637 [egg-watcher] Start watching: "/Users/talk/Desktop/document/rio/exchange/portal/config"
+2022-06-20 14:20:28,683 INFO 13637 [egg-watcher] Start watching: "/Users/talk/Desktop/document/rio/exchange/portal/mocks"
+2022-06-20 14:20:28,683 INFO 13637 [egg-watcher] Start watching: "/Users/talk/Desktop/document/rio/exchange/portal/mocks_proxy"
+2022-06-20 14:20:28,683 INFO 13637 [egg-watcher] Start watching: "/Users/talk/Desktop/document/rio/exchange/portal/app.js"
+2022-06-20 14:20:28,684 INFO 13637 [egg-watcher:agent] watcher start success
+2022-06-20 14:20:28,709 INFO 13637 [egg:core] dump config after ready, 10ms
+2022-06-20 14:50:45,790 INFO 14685 [egg:logger] init all loggers with options: {"dir":"/Users/talk/Desktop/document/rio/exchange/portal/logs/portal-node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"portal-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-06-20 14:50:46,148 INFO 14685 [egg:core] dump config after load, 13ms
+2022-06-20 14:50:46,204 INFO 14685 [egg-watcher] Start watching: ["/Users/talk/Desktop/document/rio/exchange/portal/app","/Users/talk/Desktop/document/rio/exchange/portal/config","/Users/talk/Desktop/document/rio/exchange/portal/mocks","/Users/talk/Desktop/document/rio/exchange/portal/mocks_proxy","/Users/talk/Desktop/document/rio/exchange/portal/app.js"]
+2022-06-20 14:50:46,204 INFO 14685 [egg-watcher] Start watching: "/Users/talk/Desktop/document/rio/exchange/portal/app"
+2022-06-20 14:50:46,204 INFO 14685 [egg-watcher] Start watching: "/Users/talk/Desktop/document/rio/exchange/portal/config"
+2022-06-20 14:50:46,204 INFO 14685 [egg-watcher] Start watching: "/Users/talk/Desktop/document/rio/exchange/portal/mocks"
+2022-06-20 14:50:46,204 INFO 14685 [egg-watcher] Start watching: "/Users/talk/Desktop/document/rio/exchange/portal/mocks_proxy"
+2022-06-20 14:50:46,204 INFO 14685 [egg-watcher] Start watching: "/Users/talk/Desktop/document/rio/exchange/portal/app.js"
+2022-06-20 14:50:46,205 INFO 14685 [egg-watcher:agent] watcher start success
+2022-06-20 14:50:46,225 INFO 14685 [egg:core] dump config after ready, 9ms
+2022-06-20 20:43:09,192 ERROR 14685 nodejs.ClusterClientNoResponseError: client no response in 7175300ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 14685
+hostname: talkdeMacBook-Pro.local
+
+2022-06-21 06:44:18,960 ERROR 14685 nodejs.ClusterClientNoResponseError: client no response in 36069754ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 14685
+hostname: talkdeMacBook-Pro.local
+
+2022-06-21 07:30:17,189 ERROR 14685 nodejs.ClusterClientNoResponseError: client no response in 2758178ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 14685
+hostname: talkdeMacBook-Pro.local
+
+2022-06-21 10:23:16,424 ERROR 14685 nodejs.ClusterClientNoResponseError: client no response in 10379231ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/talk/Desktop/document/rio/exchange/portal/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 14685
+hostname: talkdeMacBook-Pro.local
+

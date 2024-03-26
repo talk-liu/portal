@@ -1,0 +1,36 @@
+{
+  "url": "/v1/option/transfers?direction=[ASC OR DEC]&page=1&per_page=100",
+  "comment": "期权资产划转历史",
+  "data": [
+    {
+      "id": 1,
+      "created_at": "2018-01-22 22:11:22",
+      "code": "AT",
+      "mark": "mark",
+      "state": "normal",
+      "from_account": "ExchangeAccount",
+      "to_account": "OptionAccount",
+      "amount": 1000
+    },
+    {
+      "id": 1,
+      "created_at": "2018-01-22 22:11:22",
+      "code": "AT",
+      "mark": "mark",
+      "state": "processing",
+      "from_account": "ExchangeAccount",
+      "to_account": "OptionAccount",
+      "amount": 1000
+    },
+    {
+      "id": 1,
+      "created_at": "2018-01-22 22:11:22",
+      "code": "AT",
+      "mark": "mark",
+      "state": "done",
+      "from_account": "ExchangeAccount",
+      "to_account": "OptionAccount",
+      "amount": 1000
+    }
+  ]
+}
