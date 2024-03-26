@@ -1,0 +1,20 @@
+type Otc {
+    otc_opened: Int
+    usdt_cny_exchange_rate: Float
+}
+
+type PaymentOrder {
+    result: Object
+}
+
+type PaymentOrderList {
+    result: Object
+}
+
+type CreatePaymentOrder {
+    result: Object
+}
+
+type Quote {
+    result: Object
+}

@@ -1,0 +1,34 @@
+type Countries {
+    markets: Object
+}
+type Bank {
+    result: Object
+}
+type Banks {
+    result: Object
+}
+type BankCards {
+    result: Object
+}
+type BankGet {
+    result: Object
+}
+type DepositList {
+    result: Object
+}
+type WithdrawList {
+    result: Object
+}
+type BankWires {
+    result: Object
+}
+type BankWiresGet {
+    result: Object
+}
+type BankWiresList {
+    result: Object
+}
+
+type Fiat {
+    result: Object
+}

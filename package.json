@@ -1,0 +1,71 @@
+{
+  "name": "portal-node",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "bluebird": "^3.5.4",
+    "cookie": "^0.3.1",
+    "dataloader": "^1.4.0",
+    "egg": "^2.14.1",
+    "egg-cors": "^2.1.0",
+    "egg-graphql": "^2.3.0",
+    "egg-redis": "^2.0.0",
+    "egg-scripts": "^2.8.1",
+    "egg-security": "^2.8.0",
+    "egg-view-nunjucks": "^2.2.0",
+    "graphql": "^0.12.0",
+    "lodash": "^4.17.11",
+    "memory-cache": "^0.2.0",
+    "nanoid": "^2.0.0",
+    "newrelic": "^4.8.1",
+    "node-fetch": "^2.3.0",
+    "ratelimiter": "^3.2.0",
+    "request": "^2.87.0",
+    "sendpulse-api": "^1.1.1"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.8.1",
+    "egg-ci": "^1.8.0",
+    "egg-mock": "^3.14.0",
+    "eslint": "^5.2.0",
+    "eslint-config-egg": "^7.1.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^8.1.0"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "scripts": {
+    "start": "egg-scripts start --title=egg-server-portal-node",
+    "stop": "egg-scripts stop --title=egg-server-portal-node",
+    "dev": "egg-bin dev",
+    "debug": "egg-bin debug",
+    "test": "npm run lint -- --fix",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && npm run cov"
+  },
+  "ci": {
+    "version": "8"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js}": [
+      "npm run lint",
+      "git add"
+    ]
+  },
+  "author": "",
+  "license": "MIT"
+}

@@ -1,0 +1,26 @@
+type OptionContractsHistoryItem{
+  id: ID
+  type: String
+  code: String
+  name: String
+  open_date: String
+  expiration_date: String
+  strike_volume: String
+  strike_amount: String
+  open_price: String
+  close_price: String
+  change: String
+  strike_price: String
+  settlement_price: String
+  exercise_amount: String
+  result: Boolean
+  state:String
+  checkout_state: String
+  position_limit: Int
+  minimum_order_amount: String
+  price_range: Object
+}
+type OptionContractsHistory {
+  contracts:[OptionContractsHistoryItem]
+  meta:Object
+}

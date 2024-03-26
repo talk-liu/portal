@@ -1,0 +1,36 @@
+{
+
+  "order": {
+    "timestamp": "생성됨 -",
+    "market": "시장",
+    "type": "유형",
+    "price": "가격",
+    "volume": "거래대금",
+    "average_price": "평균 가격",
+    "fullfilled_volume": "가득 채워짐",
+    "amount": "가득 채워진 금액",
+    "state": "상태",
+    "detail": {
+      "time": "time",
+      "price": "price",
+      "volume": "volume",
+      "amount": "amount",
+      "fee": "fee"
+    }
+  },
+
+  "trades": {
+    "created_at": "시간",
+    "market": "시장",
+    "side": "측면",
+    "price": "가격",
+    "volume": "거래대금",
+    "amount": "금액",
+    "fee": "비용"
+  },
+
+
+  "index.title": "Riostox - 암호화폐 자산 거래소 | 암호화폐 거래",
+  "index.keywords": "블록체인, 거래, 거래소, 보안, Riostox, 디지털 자산, 암호화폐, 암호화폐 자산, 가상화폐, 암호화폐 거래, 가상화폐 거래, 이더리움, 이더이룸 클래식, 비트코인캐시, BTC, ETH, ETC, BCH, Riostox 거래소, 비트코인, Riostox토큰, 테더, 퀀텀, 엘프, 이오스, 리플, Riostox 거래소, AT, AT 토큰, AT 마이닝, 트레이드 마이닝, 리워드, 보상, 암호화폐, 가상화폐, 암호화폐 거래소, 가상화폐 거래소, 비트코인, 이더리움, 테더, 거래소 토큰, Riostox 앱,Riostox 클라우드,BTC, ETH, USDT,USDT, ADA, BCH, EOS, XRP, ETC, CNN, QTUM, ELF, DASH，Calvin Cheng, 캘빈 챙, Funcity Capital, BlockOrigin, Yeecall, CNN, BlockOrigin, 금융 서비스",
+  "index.description": "Riostox는 세계 최고 수준의 암호화폐 거래소로서 사용자 중심의 거래 서비스를 제공합니다. 트레이드 마이닝을 기반으로 사용자분들께 Riostox토큰(AT코인)을 지급합니다. 비트코인, 테더, 이더리움 거래쌍으로 암호화폐를 거래하실 수 있습니다.,Riostox는 AT 마이닝 프로그램을 통해 사용자들에게 큰 혜택을 제공하고 있습니다. 사용자가 거래를 진행하면 AT토큰을 받게 됩니다. 또한, AT 보유 고객들에게 매일 보상을 지급하고 있습니다.,Riostox 앱으로 손쉽게 거래하실 수 있습니다. Riostox는 세계 최고 수준의 암호화폐 거래소로서 사용자 중심의 거래 서비스를 제공합니다. 트레이드 마이닝을 기반으로 사용자분들께 Riostox토큰을 지급합니다.,Riostox Cloud는 블록체인 기술을 기반으로 한 SaaS 원스톱 암호화폐 거래소 솔루션입니다. 높은 유동성과 최상의 보안을 제공해드립니다."
+}

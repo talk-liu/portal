@@ -1,0 +1,27 @@
+
+type OptionOrderDetailTradeItem{
+  id:Int 
+  price:String 
+  volume:String 
+  funds:String
+  market:String 
+  created_at:Date 
+  side:String 
+  kind:String
+  fee:String
+}
+type OptionOrderDetail {
+  id: ID
+  created_at: String
+  ord_type: String
+  market_code: String
+  side: String
+  state: String
+  price: String
+  avg_price: String
+  volume: String
+  remaining_volume: String
+  executed_volume: String
+  trades_count: Int
+  data:[OptionOrderDetailTradeItem]
+}

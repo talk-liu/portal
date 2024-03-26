@@ -1,0 +1,4 @@
+type VoteCount {
+    voteCountInfo: Object
+    period: Int
+}

@@ -1,0 +1,54 @@
+
+
+type submitIeoOrderResult{
+    data: Int
+}
+
+type ieoRateListItem {
+    ieoCode: String
+    currencyCode: String
+    currency: Int
+    rate: Float
+}
+
+type ieoRspVo{
+    ieoCode: String
+    startDate: String
+    endDate: String
+    amount: Float
+    saleNum: Float
+    manNum: Int
+}
+
+type IeoInfoResult{
+    ieoRspVo: ieoRspVo
+    ieoRateList: [ieoRateListItem]
+    currentRate: Float
+}
+
+type IeoOrderListItem{
+    id: ID
+    ieoCode: String
+    memberId: Int
+    accountId: Int
+    currency: Int
+    amount: Float
+    buyAmount: Float
+    currencyAmount: Float
+    rewardAmount: Float
+    rewardRate: Float
+    state: String
+    payUnit: String
+}
+
+type IeoOrderListMeta{
+    page: Int
+    page_size: Int
+    total_count: Int
+}
+
+type IeoOrderListResult{
+    meta: IeoOrderListMeta
+    ieoOrderList: [IeoOrderListItem]
+}
+

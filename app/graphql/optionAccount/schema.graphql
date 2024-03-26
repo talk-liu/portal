@@ -1,0 +1,6 @@
+type OptionAccount {
+  option_currency: Object
+  amount: String
+  balance: String
+  locked: String
+}

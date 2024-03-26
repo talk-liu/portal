@@ -1,0 +1,62 @@
+type Member {
+    id: ID!
+    sn: String
+    email: String
+    activated: Boolean
+    id_document_state: String
+    id_document_verified: Boolean
+    id_document_third_verified: Boolean
+    api_disabled: Boolean
+    app_activated: Boolean
+    country_code: Int
+    created_at: Date
+    disabled: Boolean
+    display_name: String
+    email_activated: Boolean
+    identity_id: Int
+    last_security_action_at: Date
+    name: String
+    nickname: String
+    security_settings_changed_within_h24: Boolean
+    sms_activated: Boolean
+    state: Int
+    updated_at: Date
+    withdraw_amount_h24: Float
+    withdraw_disabled: Boolean
+    income: Object
+    member_tags: Object
+    force_kyc: Boolean
+}
+
+type Verify {
+    result: Object
+}
+
+type FaceppVerify {
+    result: Object
+}
+
+type Document {
+    result: Object
+}
+
+type HistoryMining {
+    deposits: Object
+    meta: Object
+}
+
+type HistoryProfits {
+    deposits: Object
+    meta: Object
+}
+
+type Captcha {
+    key: String
+    provider: String
+}
+
+type Challenge {
+    key: String
+    provider: String
+    challenge: String
+}

@@ -1,0 +1,7 @@
+type LastSevenAtMiningAward {
+    timestamp: Date
+    releaseAt: String
+    tradeFee: String
+    unitAtMiningCost: String
+    miningAwardPercentPerDay: String
+}

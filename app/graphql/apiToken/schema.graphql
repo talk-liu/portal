@@ -1,0 +1,15 @@
+type GetApiToken {
+    result: Object
+}
+
+type PostApiToken {
+    result: Object
+}
+
+type UpdateApiToken {
+    result: Object
+}
+
+type DeleteApiToken {
+    result: Object
+}

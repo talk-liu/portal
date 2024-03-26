@@ -1,0 +1,28 @@
+type OptionMarket{
+  code: String
+  name: String
+  base_unit: String
+  quote_unit: String
+  volume: String
+  open_price: String
+  lastest_price: String
+  close_date: Date
+  state: String
+  long_position_stat: Int
+  ask_fixed: Int
+  bid_fixed: Int
+  minimum_order_amount: String
+  price_range: Object
+  expiration_date: Date
+  strike_price: String
+  next_open_date: Date
+  position_limit: String
+  open_date: Date
+  begin_time: Date
+  fee: String
+}
+
+type SortedOptionMarket {
+  stableCoin: Object
+  thirdPartCoin: Object
+}

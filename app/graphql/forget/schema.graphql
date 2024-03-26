@@ -1,0 +1,15 @@
+type ForgetPassword {
+    result: Object
+}
+
+type ForgetPasswordCode {
+    result: Object
+}
+
+type ForgetPsw {
+    result: Object
+}
+
+type ResetForgetPassword {
+    result: Object
+}

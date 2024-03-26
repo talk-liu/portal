@@ -1,0 +1,54 @@
+type ConditionItem {
+    id: ID
+    member_id: ID
+    market_id: String
+    market_code: String
+    direction: String
+    trigger_price: String
+    price: String
+    volume: String
+    condition_type: Int
+    ord_type: String
+    created_time: Date
+    side: String
+}
+
+type ConditionHistoryItem {
+    id: ID
+    member_id: ID
+    market_id: String
+    market_code: String
+    direction: String
+    trigger_price: String
+    price: String
+    volume: String
+    condition_type: Int
+    ord_type: String
+    created_time: Date
+    side: String
+    state: String
+    done_at: String
+    reason: String
+}
+
+type ConditionCurrent {
+    conditions: [ConditionItem]
+    meta: Object
+}
+
+type ConditionHistory {
+    conditions: [ConditionHistoryItem]
+    meta: Object
+}
+
+type ConditionCancel {
+    result: Object
+}
+
+type ConditionCreate {
+    result: Object
+}
+
+type ConditionClear {
+    result: String
+}

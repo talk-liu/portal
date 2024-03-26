@@ -1,0 +1,7 @@
+type OptionAgree {
+    result: Boolean
+}
+
+type OptionSetAgree {
+    result: Boolean
+}

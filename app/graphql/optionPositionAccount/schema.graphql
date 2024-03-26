@@ -1,0 +1,13 @@
+type OptionPositionAccount {
+  id: ID
+  contract: Object
+  long_position:String
+  short_position:String
+  mark: String
+  position:String
+  max:String
+  position_limit: String
+  locked: String
+  bid_position: String
+  ask_position: String
+}

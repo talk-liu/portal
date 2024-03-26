@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title }}</title>
+  <meta property="og:site_name" content="{{ title }}" />
+  <meta property="og:title" content="{{ title }}" />
+  <meta property="og:url" content="https://riostox.com" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta property='og:description' name="description" content="{{ description }}">
+  <meta name="keywords" content="{{ keywords }}">
+  <meta http-equiv="x-dns-prefetch-control" content="on" />
+  <!-- UC强制全屏 -->
+  <meta name="full-screen" content="yes">
+  <!-- QQ强制全屏 -->
+  <meta name="x5-fullscreen" content="true">
+  <script type="text/javascript" nonce="4c6530eeec6dc7840c6f19265937d21433318c6543e47bfa8601209b4f3c4426">
+    var gon = {};
+    gon.pusher = {{ gonRender.pusher | safe}};
+    gon.member = {{ gonRender.member | safe }};
+    gon.transifex = {{ gonRender.transifex | safe}};
+    gon.banner = {{ gonRender.banner | safe }};
+    gon.announce = {{ gonRender.announce | safe }};
+    gon.appConfig = {{ gonRender.appConfig | safe }};
+    gon.markets = {{ gonRender.markets | safe }};
+    gon.captcha = {{ gonRender.captcha | safe }};
+    gon.current_ip = {{ gonRender.current_ip | safe }};
+    gon.income = {{ gonRender.income | safe }};
+    gon.optionBalance = {{ gonRender.optionBalance | safe }};
+    gon.frontedCurrency = {{ gonRender.frontedCurrency | safe }};
+    gon.adList = {{ gonRender.adList | safe }};
+    gon.registerActive = {{ gonRender.registerActive | safe }};
+    {{ gonRender.autoGonPageConfigRendered | safe }};
+  </script>
+  <link rel="dns-prefetch" href="//s.riostox.com" />
+  <link rel="dns-prefetch" href="//i.riostox.com" />
+  {{ tradingviewScript | safe}}
+  {{ seoLink | safe}}
+  <link href="{{ staticServer }}/css/vendors-{{ staticHash }}.css" rel="stylesheet">
+  <link href="{{ staticServer }}/css/main-{{ staticHash }}.css" rel="stylesheet">
+  <link rel="icon" href="https://i.riostox.com/favicon.ico">
+</head>
+<body>
+  <div id="app"></div>
+  <script type="text/javascript" src="{{ staticServer }}/js/vendors-{{ staticHash }}.js"></script>
+  <script type="text/javascript" src="{{ staticServer }}/js/main-{{ staticHash }}.js"></script>
+</body>
+<script src="https://www.yunpian.com/static/official/js/libs/riddler-sdk-0.2.2.js"></script>
+<!-- Google Tag Manager -->
+<script nonce="c72d3441f9280d6293fe738446481318ddd2c355108aa73946f6c1448deae15d">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTK29LJ');
+</script>
+<script type="application/ld+json" nonce="8c8d9cb2050f3b966a7c1b7c02f197c511e9718bfe5aaac2a332448072eebc6c">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "Riostox",
+  "url": "https://riostox.com",
+  "sameAs": [
+    "https://medium.com/riostox-exchange",
+    "https://twitter.com/riostox_exchange",
+    "https://t.me/RiostoxOfficialNews",
+    "https://t.me/riostox_en",
+    "https://www.youtube.com/channel/UCI80n2UiSk0nH1UW7vmnMjQ",
+    "https://www.reddit.com/r/Riostox/",
+    "https://www.facebook.com/Riostox-Exchange-558472047871367/?ref=bookmarks",
+    "https://vk.com/riostox_exchange"
+  ]
+}
+</script>
+<!-- End Google Tag Manager -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTK29LJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+</html>

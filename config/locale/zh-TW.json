@@ -1,0 +1,30 @@
+{
+  "order": {
+    "timestamp": "委託時間",
+    "market": "交易對",
+    "type": "類型",
+    "price": "委託價",
+    "volume": "委託數量",
+    "average_price": "平均成交價",
+    "fullfilled_volume": "成交數量",
+    "amount": "成交金額",
+    "state": "狀態",
+    "detail": {
+      "time": "時間",
+      "price": "成交價",
+      "volume": "數量",
+      "amount": "金額",
+      "fee": "手續費"
+    }
+  },
+
+  "trades": {
+    "created_at": "時間",
+    "market": "交易對",
+    "side": "類型",
+    "price": "成交價",
+    "volume": "數量",
+    "amount": "金額",
+    "fee": "手續費"
+  }
+}

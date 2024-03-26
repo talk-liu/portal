@@ -1,0 +1,105 @@
+type Query {
+    member: Member
+    market: Market!
+    favoriteMarket: FavoriteMarket
+    income: Income
+    platformProfit: PlatformProfit
+    computingPower: ComputingPower
+    kline(markets: String!, limit: Int, period: Int, timestamp: Int, to: Int, _t: Int): Kline
+    singleKLine(market: String!, limit: Int, period: Int, timestamp: Int, to: Int, _t: Date): SingleKLine
+    icoAndOp: IcoAndOp
+    otc: Otc
+    me: Me
+    atVipGrade: AtVipGrade
+    vipLevel: VipLevel
+    captcha: Captcha
+    challenge: Challenge
+    getApiToken:GetApiToken
+    ticker: Ticker
+    isMiner: IsMiner
+    atTotalInfos: [AtTotalInfo!]
+    lastSevenAtAwards: [LastSevenAtAward!]
+    lastSevenAtMiningAwards: [LastSevenAtMiningAward!]
+    voteCoin: VoteCoin
+    voteCoinHistory: VoteCoinHistory
+    voteCount(period: Int!): VoteCount
+    allCurrency:AllCurrency
+    depositAddress(currency: String): DepositAddress
+    orderHistory(state: String, per_page: Int): OrderHistory
+    order24hHistory(per_page: Int): Order24hHistory
+    pendingKLine(market: String, limit: Int, period: Int, _t: Date, trade_id: Int): PendingKLine
+    depth(market: String): Depth
+    coinTotal: CoinTotal
+    frontedCurrency: FrontedCurrency
+    trade(market: String!, limit: Int): Trade
+    account(market: String): Account
+    withdrawAddress: [WithdrawAddress]
+    voucher: Voucher
+    optionAgree: OptionAgree
+    deliveryCurrency:DeliveryCurrency
+    historyVoucher(page_size: Int, page: Int): HistoryVoucher
+    inactiveVoucher:InactiveVoucher
+    historyMining(page_size: Int, page: Int): HistoryMining
+    historyProfits(page_size: Int, page: Int): HistoryProfits
+    historyTrade(order_id:String,from:String,to:String,market:String,bu:String,qu:String,page:Int,page_size:Int): HistoryTrade
+    paymentOrder(payment_id:String):PaymentOrder
+    paymentOrderList(page:Int,page_size:Int,state:String):PaymentOrderList
+    quote(digital_currency:String,fiat_currency:String,requested_currency:String,requested_amount:Float):Quote
+    optionPermission:OptionPermission
+    depositHistory(type:String,page:Int,page_size:Int): DepositHistory
+    applicants(birth_date:String,first_name:String,last_name:String,country:String,city:String,zipcode:String,address:String): Applicants
+    sdkTokenKyc: SdkTokenKyc
+    checkKyc: CheckKyc
+    accountTransferHistory(page:Int,page_size:Int): AccountTransferHistory
+    withdrawsHistory(page:Int,page_size:Int): WithdrawsHistory
+    conditionCurrent(page:Int, page_size:Int,market_code:String,begin_time:Int,end_time:Int,condition_type:Int): ConditionCurrent
+    conditionHistory(page:Int, page_size:Int,market_code:String,begin_time:Int,end_time:Int,condition_type:Int): ConditionHistory
+    order(from:String, to:String, market:String, bu:String, qu:String, page:Int, page_size:Int, side:String, state:String, no_canceled:String, no_wait:String): Order
+    registerGeetest:RegisterGeetest
+    countries: Countries
+    bank: Bank
+    banks(swift_code: String,name: String): Banks
+    bankCards(fdt_bank_id: Int,account_number: String,fdt_country_id:Int,city:String,state_province:String,postal_code:String,address1:String,address2:String,relationship:String): BankCards
+    bankGet(type:String): BankGet
+    depositList: DepositList
+    withdrawList: WithdrawList
+    bankWires(bank_card_id:Int,source_of_funds:Int,amount:Float): BankWires
+    bankWiresGet(id:Int): BankWiresGet
+    bankWiresList: BankWiresList
+    fiat(currency:String,bank_card_id:String,sum:String,memo:String,otp:String,type:String): Fiat
+    #option
+    optionPriceIndex(period:Int!,start:Int,end:Int,code:String!): OptionPriceIndex
+    optionTrade(order_id:Int,id:Int,per_page:Int,market_code:String,page_size:Int,page:Int,direction:String,start_id:String,end_id:String,start_time:String,end_time:String):OptionTrade # 用户个人成交
+    optionOrder(state:String,page:Int,page_size:Int,side:String,start_time:String,end_time:String,market_code:String,order_by:String,direction:String) :OptionOrder
+    optionDepth(limit:Int,market_code:String!): OptionDepth
+    optionExerciseDetail(direction:String,page:Int,page_size:Int): OptionExerciseDetail
+    # optionFundsTransfersHistory(direction:String,page:Int,per_page:Int):OptionFundsTransfersHistory # 弃用已经合并到optionTransfersHistory
+    optionTransfersHistory(direction:String,page:Int,page_size:Int):OptionTransfersHistory
+    optionHistoryTrade(start_id:Int,end_id:Int,market_code:String!,start_time:String,end_time:String,direction:String,page:Int,page_size:Int):OptionHistoryTrade # 某市场所有成交
+    optionAccount(id:String):[OptionAccount]
+    optionPenddingKLine(market_code:String!,limit:Int,period:Int!,start_time:String,end_time:String,trade_id:Int):OptionPenddingKLine
+    optionKLineByCodes(market_codes:String!,limit:Int,period:Int!,start_time:String,end_time:String):OptionKLineByCodes
+    optionKLineByCode(market_code:String!,limit:Int,period:Int!,start_time:String,end_time:String):OptionKLineByCode
+    optionPositionAccount:[OptionPositionAccount]
+    optionContractsStat:OptionContractsStat
+    optionContractsHistory(direction:String,page:Int,page_size:Int,state:String):OptionContractsHistory
+    optionMarket(state:String, visible: Boolean):[OptionMarket]
+    sortedOptionMarket(state:String, visible: Boolean): SortedOptionMarket
+    optionOrderDetail(id:Int):OptionOrderDetail
+    optionOtc: OptionOtc
+    optionBalance:[OptionBalance]
+    optionCurrencies:[OptionCurrencies]
+    optionTicker:OptionTicker
+    optionOrderPermission:OptionOrderPermission
+    transifex: Transifex
+    newBanner: NewBanner
+    session: Session
+
+    # at game
+    atGameTaskList(num: Int, page: Int):atGameTaskResult
+    atGameRewardHis(num: Int, page: Int):atGameRewardResult
+    # ieo
+    ieoInfo(ieoCode: String): IeoInfoResult
+    submitOrder(ieoCode: String, currency :Int, memberId :Int, buyAmount :Float, currencyAmount: Float, rewardAmount: Float, rewardRate: Float): submitIeoOrderResult
+    ieoHistoryOrderList(ieoCode: String, memberId: Int, number: Int, size: Int): IeoOrderListResult
+}

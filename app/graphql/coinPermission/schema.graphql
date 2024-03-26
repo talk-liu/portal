@@ -1,0 +1,7 @@
+type DeliveryCurrency {
+    result: Object
+}
+
+type OptionPermission {
+    result: Object
+}

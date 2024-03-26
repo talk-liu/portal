@@ -1,0 +1,8 @@
+type LastSevenAtAward {
+    timestamp: Date
+    platformToBeAward: String
+    unitAtAward: String
+    thousandAtAward: String
+    atAwardPerDay: String
+    atAwardPerWeek: String
+}

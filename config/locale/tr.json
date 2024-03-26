@@ -1,0 +1,30 @@
+{
+  "order": {
+    "timestamp": "Düzenlendi",
+    "market": "Market",
+    "type": "Tür",
+    "price": "Fiyat",
+    "volume": "Hacim",
+    "average_price": "Ortalama fiyat",
+    "fullfilled_volume": "Karşılanan",
+    "amount": "Karşılanan Tutar",
+    "state": "Durum",
+    "detail": {
+      "time": "time",
+      "price": "price",
+      "volume": "volume",
+      "amount": "amount",
+      "fee": "fee"
+    }
+  },
+
+  "trades": {
+    "created_at": "Zaman",
+    "market": "Market",
+    "side": "Taraf",
+    "price": "Fiyat",
+    "volume": "Hacim",
+    "amount": "Miktar",
+    "fee": "Komisyon"
+  }
+}

@@ -1,0 +1,9 @@
+type IcoAndOp {
+    ico: Object
+    operationActivity: Object
+    candy: Object
+    appConfig: Object
+    fundsInterlocution: Object
+    depositRemarksNew: Object
+    registerActive: Object
+}

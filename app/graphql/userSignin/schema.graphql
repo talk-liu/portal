@@ -1,0 +1,31 @@
+type Signin {
+    result: Object
+}
+
+type Signup {
+    result: Object
+}
+
+type TwoFrontendFactor {
+    result: Object
+}
+
+type AuthTwoFactor {
+    result: Object
+}
+
+type Signout {
+    result: Object
+}
+
+type ActivationEmail {
+    result: Object
+}
+
+type Activate {
+    result: Object
+}
+
+type Session {
+    result: Object
+}

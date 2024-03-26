@@ -1,0 +1,13 @@
+type Voucher {
+    vouchers: Object
+    market_voucher: Object
+}
+
+type HistoryVoucher {
+    vouchers: Object
+    meta: Object
+}
+
+type InactiveVoucher {
+    vouchers: Object
+}

@@ -1,0 +1,4 @@
+type PendingKLine {
+    k: Object
+    trades: Object
+}

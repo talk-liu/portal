@@ -1,0 +1,21 @@
+type OptionBalance {
+    currency:String
+    balance:String
+    locked:String
+    deposit_address:String
+    memo:String
+    default_withdraw_fund_source_id:String
+    minimum_withdraw_amount: Float
+    withdraw_fee:Float
+    require_memo:Boolean
+    readable_name:String
+    withdraw_amount_h24:Float
+    withdraw_amount_max_h24:Int
+    min_confirmations:Int
+    max_confirmations:Int
+    can_deposit:Boolean
+    can_withdraw:Boolean
+    vote_currency:Boolean
+    withdraw_fixed:Int
+    fee:String
+}

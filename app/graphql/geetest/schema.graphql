@@ -1,0 +1,6 @@
+type RegisterGeetest{
+    success:Int,
+    gt:String,
+    challenge:String,
+    new_captcha:Boolean
+}

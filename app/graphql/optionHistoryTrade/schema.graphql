@@ -1,0 +1,21 @@
+type OptionHistoryTradeItem {
+  id: ID
+  price: String
+  volume: String
+  funds: String
+  created_at: String
+  side: String
+  market:String
+  kind:String
+  type:String
+  trend:String
+}
+type OptionHistoryTrade {
+  trades:[OptionHistoryTradeItem]
+  meta:Object
+}
+
+type HistoryTrade {
+  trades: Object
+  meta: Object
+}

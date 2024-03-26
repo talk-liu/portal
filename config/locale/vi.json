@@ -1,0 +1,30 @@
+{
+  "order": {
+    "timestamp": "Thời gian ủy thác",
+    "market": "Giao dịch cặp",
+    "type": "Loại hình",
+    "price": "Giá ủy thác",
+    "volume": "Số lượng ủy thác",
+    "average_price": "Giá giao dịch trung bình",
+    "fullfilled_volume": "Số lượng giao dịch",
+    "amount": "Số tiền giao dịch",
+    "state": "Trạng thái",
+    "detail": {
+      "time": "time",
+      "price": "price",
+      "volume": "volume",
+      "amount": "amount",
+      "fee": "fee"
+    }
+  },
+
+  "trades": {
+    "created_at": "Thời gian",
+    "market": "Cặp giao dịch",
+    "side": "Loại hình",
+    "price": "Giá giao dịch",
+    "volume": "Số lượng",
+    "amount": "Kim ngạch",
+    "fee": "Phí xử lý"
+  }
+}

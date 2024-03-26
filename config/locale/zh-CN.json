@@ -1,0 +1,37 @@
+{
+
+  "order": {
+    "timestamp": "委托时间",
+    "market": "交易对",
+    "type": "类型",
+    "price": "委托价",
+    "volume": "委托数量",
+    "average_price": "平均成交价",
+    "fullfilled_volume": "成交数量",
+    "amount": "成交金额",
+    "state": "状态",
+    "detail": {
+      "time": "时间",
+      "price": "成交价",
+      "volume": "数量",
+      "amount": "金额",
+      "fee": "手续费"
+    }
+  },
+
+  "trades": {
+    "created_at": "时间",
+    "market": "交易对",
+    "side": "类型",
+    "price": "成交价",
+    "volume": "数量",
+    "amount": "金额",
+    "fee": "手续费"
+  },
+
+
+
+  "index.title": "Riostox - 数字资产交易平台",
+  "index.keywords": "Riostox,开源,交易所,加密货币",
+  "index.description": "Riostox是一家数字资产交易平台，由新加坡的政界要人和传媒巨头Calvin Cheng创立，团队成员均为来自世界各地的顶尖金融和互联网行业精英。平台秉承区块链开放、参与、共享的理念，专注为投资者筛选有价值的数字资产，并提供理性、安全的交易环境，使用户享受到全方位的交易服务。"
+}

@@ -1,0 +1,22 @@
+type AllCurrency {
+    currencies: [Object]
+    recommended_markets:[String]
+    usdt_cny_exchange_rate:Float
+    legal_currency:Boolean
+    can_otc:Boolean
+}
+type CoinTotal{
+    count:Int
+}
+type OptionCurrencies{
+    id:Int
+    code:String
+    symbol:String
+    readable_name:String
+    key:String
+    fixed:Int
+}
+
+type FrontedCurrency{
+    currencies: Object
+}

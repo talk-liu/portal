@@ -1,0 +1,3 @@
+type Trade {
+    record: Object
+}

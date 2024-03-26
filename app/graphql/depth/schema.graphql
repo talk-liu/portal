@@ -1,0 +1,5 @@
+type Depth {
+    timestamp: Date
+    asks: Object
+    bids: Object
+}

@@ -1,0 +1,87 @@
+type Order {
+    orders: [OrderItem]
+    meta: Object
+}
+
+type OrderItem {
+    id: ID
+    side: String
+    ord_type: String
+    price: String
+    avg_price: String
+    state: String
+    market: String
+    created_at: Date
+    volume: String
+    remaining_volume: String
+    executed_volume: String
+    trades_count: String
+    total_fee: String
+    amount: String
+}
+
+type Bid {
+    id: ID
+    side: String
+    ord_type: String
+    price: String
+    avg_price: String
+    state: String
+    market: String
+    created_at: Date
+    volume: String
+    remaining_volume: String
+    executed_volume: String
+    trades_count: String
+    total_fee: String
+    percent: String
+}
+
+type Ask {
+    id: ID
+    side: String
+    ord_type: String
+    price: String
+    avg_price: String
+    state: String
+    market: String
+    created_at: Date
+    volume: String
+    remaining_volume: String
+    executed_volume: String
+    trades_count: String
+    total_fee: String
+    percent: String
+}
+
+type CancelOrder {
+    id: ID
+    side: String
+    ord_type: String
+    price: String
+    avg_price: String
+    state: String
+    market: String
+    created_at: Date
+    volume: String
+    remaining_volume: String
+    executed_volume: String
+    trades_count: String
+    total_fee: String
+}
+
+type ClearOrder {
+    id: ID
+    side: String
+    ord_type: String
+    price: String
+    avg_price: String
+    state: String
+    market: String
+    created_at: Date
+    volume: String
+    remaining_volume: String
+    executed_volume: String
+    trades_count: String
+    total_fee: String
+}

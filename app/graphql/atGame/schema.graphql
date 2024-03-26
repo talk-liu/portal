@@ -1,0 +1,38 @@
+type atGameTaskItem {
+    id: ID
+    memberId: Object
+    groupName: String
+    taskId: Object
+    taskTitle: String
+    taskTitleCn: String
+    Point: Object
+    isCompleted: Object
+}
+
+type atGameTaskResult{
+    count: Object
+    groupName: String
+    groupNameCn: String
+    vipGrade: String
+    content: [atGameTaskItem]
+    totalPoint: String
+}
+
+type atGameRewardItem {
+    id: ID
+    memberId: Object
+    groupName: String
+    groupNameCn: String
+    rewardType: String
+    vipGrade: Object
+    rewardAmount: Object
+}
+
+type atGameRewardResult{
+    count: Object
+    groupName: String
+    content: [atGameRewardItem]
+}
+
+
+

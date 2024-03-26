@@ -1,0 +1,30 @@
+{
+  "order": {
+    "timestamp": "Создано в",
+    "market": "Рынок",
+    "type": "Тип",
+    "price": "Цена",
+    "volume": "Стоимость",
+    "average_price": "Средняя цена",
+    "fullfilled_volume": "Исполнено",
+    "amount": "Исполненная сумма",
+    "state": "Состояние",
+    "detail": {
+      "time": "time",
+      "price": "price",
+      "volume": "volume",
+      "amount": "amount",
+      "fee": "fee"
+    }
+  },
+
+  "trades": {
+    "created_at": "Время",
+    "market": "Рынок",
+    "side": "Сторона",
+    "price": "Цена",
+    "volume": "Стоимость",
+    "amount": "Количество",
+    "fee": "Оплата"
+  }
+}

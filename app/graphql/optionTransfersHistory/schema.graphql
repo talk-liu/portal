@@ -1,0 +1,14 @@
+type OptionTransfersHistoryItem {
+  id:Int
+  created_at:Date
+  amount:String
+  code:String
+  to_account:String
+  from_account:String
+  mark:String
+  state:String
+}
+type OptionTransfersHistory {
+  transfers:[OptionTransfersHistoryItem]
+  meta:Object
+}

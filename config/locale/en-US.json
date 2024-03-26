@@ -1,0 +1,101 @@
+{
+  "order": {
+    "timestamp": "Created At",
+    "market": "Market",
+    "type": "Type",
+    "price": "Price",
+    "volume": "Volume",
+    "average_price": "Avg. Price",
+    "fullfilled_volume": "Fullfilled",
+    "amount": "Fullfilled Amount",
+    "state": "State",
+    "detail": {
+      "time": "Time",
+      "price": "Price",
+      "volume": "Volume",
+      "amount": "Amount",
+      "fee": "Fee"
+    }
+  },
+
+  "trades": {
+    "created_at": "Time",
+    "market": "Market",
+    "side": "Side",
+    "price": "Price",
+    "volume": "Volume",
+    "amount": "Amount",
+    "fee": "Fee"
+  },
+
+  "index.title": "Riostox - Crypto Asset Exchange",
+  "index.keywords": "Blockchain, Trading, Exchange, Security, Riostox, Digital Asset, Crypto Asset, Crypto Trading, BTC, ETH, ETC, BCH, riostox exchange, bitcoin, Riostox Token, cryptocurrency, crypto exchange, USDT, trade bitcoin",
+  "index.description": "Riostox is a world-class cryptocurrency exchange, aiming to provide a user-centric crypto trading experience. buy and sell BTC, USDT, ETH trade pairs. Riostox Exchange embraces the philosophy of blockchain.",
+
+  "zeceth.title": "Riostox Pro  - ZEC/ETH | Trade ZCash",
+  "zeceth.description": "Zcash is the top 20 project meaning absolute anonymity for users. Trade ZEC/ETH on Riostox Exchange with Riostox Pro tradingview. It is one of the most recognized privacy coins in the market and one of USD pairs that Gemini provides and was added into Coinbase Pro. Zcash also partners with JPMorgan.",
+
+  "bchsvusdt.title": "Riostox Pro - BCHSV/USDT | Trade Bitcoin Cash SV",
+  "bchsvusdt.description": "Bitcoin SV(BSV), backed by Craig Wright, went through hard fork split campaign. Trade BCHSV/USDT on Riostox Exchange. Riostox Pro provides the best trading experience including tradingview and indicators. A true believer in blockchain technology.",
+
+  "bchabcusdt.title": "Riostox Pro - BCHABC/USDT | Trade Bitcoin Bash ABC",
+  "bchabcusdt.description": "Bitcoin Cash ABC (BCH), favored by Roger Ver and Jihan Wu, went through hard fork spit campaign. Trade BCHABC/USDT on Riostox Exchange. Riostox Pro provides the best trading experience including tradingview and indicators. A true believer in blockchain technology.",
+
+  "trxeth.title": "Riostox Pro - TRX/ETH | Trade TRON",
+  "trxeth.description": "TRX, the native token of TRON, is available for trading on Riostox Exchange with TRX/ETH pair. Riostox Pro provides the best trading experience with tradingview and indicators, as well as a range of digital asssets selection such as bitcoin, ethereum and so on. A true believer in blockchain technology.",
+
+  "trxbtc.title": "Riostox Pro - TRX/BTC | Trade TRON",
+  "trxbtc.description": "TRX, the native token of TRON, is available for trading on Riostox Exchange with TRX/BTC pair. Riostox Pro provides the best trading experience with tradingview and indicators, as well as a range of digital asssets selection such as bitcoin, ethereum and so on. A true believer in blockchain technology.",
+
+  "ateth.title": "Riostox Pro - AT/ETH | Trade Riostox Token",
+  "ateth.description": "Riostox Token (AT) is a native token of Riostox Cryptocurrency Exchange. AT/ETH trading pair is available with AT/BTC and AT/USDT. As AT holders, you enjoy benefits such as airdrop, rewards, listing voting and private sale. Riostox has low withdrawal fees for many projects like bitcoin and ethereum.",
+
+  "adabtc.title": "Riostox Pro - ADA/ETH | Trade Cardano",
+  "adabtc.description": "ADA is the cryptocurency of Cardano Blockchain. ADA/ETH trading pair is available with ADA/BTC and ADA/USDT on Riostox Exchange. You can ToM Riostox Token (AT) for benefits such as airdrop, exchange voting and rewards. Riostox has low withdrawal fees for many projects like bitcoin and ethereum.",
+
+  "batbtc.title": "Riostox Pro - BAT/ETH | Trade Basic Attention Token ",
+  "batbtc.description": "Basic Attention Token (BAT) is an open-source, decentralized digital advertising platform based on Ethereum. BAT/ETH trading pair is available with BAT/BTC on Riostox Exchange. You can ToM Riostox Token (AT) for benefits such as airdrop, exchange voting and rewards. Riostox has low withdrawal fees.",
+
+  "bntbtc.title": "Riostox Pro - BNT/ETH | Trade Bancor",
+  "bntbtc.description": "BNT serves as the hub network token for the Bancor Network on ethereum. BNT/ETH and BNT/BTC trading pairs are available on Riostox Cryptocurrency Exchange. Via trading BNT, You can ToM Riostox Token (AT) for benefits such as airdrop, exchange voting and rewards. Riostox has low withdrawal fees.",
+
+  "eoseth.title": "Riostox Pro - EOS/ETH | Trade EOS",
+  "eoseth.description": "The EOS.IO software introduces a new blockchain architecture. EOS/ETH, EOS/BTC and EOS/USDT trading pairs are available on Riostox Cryptocurrency Exchange. Via trading EOS, you can ToM Riostox Token (AT) for further benefits such as airdrop, exchange voting and rewards. Riostox has low withdrawal fees.",
+
+  "etceth.title": "Riostox Pro - ETC/ETH | Trade Ethereum Classic",
+  "etceth.description": "Ethereum Classic is a continuation of the original Ethereum blockchain. ETC/ETH, ETC/BTC and ETC/USDT trading pairs are available on Riostox Cryptocurrency Exchange. Via trading ETC, you can ToM Riostox Token (AT) for further benefits such as airdrop, exchange voting and rewards. Riostox has low withdrawal fees.",
+
+  "keyeth.title": "Riostox Pro - KEY/ETH | Trade SelfKey",
+  "keyeth.description": "KEY is a critical element of the SelfKey network. KEY/ETH and KEY/BTC trading pairs are available on Riostox Cryptocurrency Exchange. Via trading KEY Riostox has low withdrawal fees.",
+
+  "qtumeth.title": "Riostox Pro - QTUM/ETH | Trade Qtum",
+  "qtumeth.description": "QTUM, Quantum, aims to make decentralized blockchain technology easy to deploy for enterprises. QTUM/ETH, QTUM/BTC and QTUM/USDT trading pairs are available on Riostox Cryptocurrency Exchange. Via trading QTUM. Riostox has low withdrawal fees.",
+
+  "storjeth.title": "Riostox Pro - STORJ/ETH | Trade Storj",
+  "storjeth.description": "STORJ is an ERC-20 token on the Storj network which is a peer-to-peer cloud storage network. STORJ/BTC and STORJ/ETH trading pairs are available on Riostox Cryptocurrency Exchange. Via trading STORJ. Riostox has low withdrawal fees.",
+
+  "xrpeth.title": "Riostox Pro - XRP/ETH | Trade Ripple",
+  "xrpeth.description": "Ripple is an open source, distributed payment protocol. XRP/BTC, XRP/ETH and XRP/USDT trading pairs are available on Riostox Cryptocurrency Exchange. Via trading XRP, you can ToM Riostox Token (AT) for further benefits such as airdrop, exchange voting and rewards. Riostox has low withdrawal fees.",
+
+  "atusdt.title": "Riostox Pro - AT/USDT | Trade Riostox Token",
+  "atusdt.description": "Riostox Token (AT) is a native token of Riostox Cryptocurrency Exchange. AT/USDT trading pair is available with AT/BTC and AT/ETH. As AT holders, you enjoy benefits such as airdrop, rewards, listing voting and private sale. Riostox has low withdrawal fees for many projects like bitcoin and ethereum.",
+
+  "btcusdt.title": "Riostox Pro - BTC/USDT | Trade Bitcoin",
+  "btcusdt.description": "Bitcoin is an innovative payment network and a new kind of money. BTC/USDT and ETH/BTC trading pairs are available on Riostox Cryptocurrency Exchange. Via trading activities, You can ToM Riostox Token (AT) for benefits such as airdrop, exchange voting and rewards. Riostox has low withdrawal fees.",
+
+  "eosusdt.title": "Riostox Pro - EOS/USDT | Trade EOS",
+  "eosusdt.description": "The EOS.IO software introduces a new blockchain architecture. EOS/ETH, EOS/BTC and EOS/USDT trading pairs are available on Riostox Cryptocurrency Exchange. Via trading EOS, you can ToM Riostox Token (AT) for further benefits such as airdrop, exchange voting and rewards. Riostox has low withdrawal fees.",
+
+  "etcusdt.title": "Riostox Pro - ETC/USDT | Trade Ehereum Classic",
+  "etcusdt.description": "Ethereum Classic is a continuation of the original Ethereum blockchain. ETC/ETH, ETC/BTC and ETC/USDT trading pairs are available on Riostox Cryptocurrency Exchange. Via trading ETC, you can ToM Riostox Token (AT) for further benefits such as airdrop, exchange voting and rewards.",
+
+  "ethusdt.title": "Riostox Pro - ETH/USDT | Trade Ehereum",
+  "ethusdt.description": "Ethereum is a decentralized platform for applications. ETH/BTC and ETC/USDT trading pairs are available on Riostox Cryptocurrency Exchange. Via trading ETH, you can ToM Riostox Token (AT) for further benefits such as airdrop, exchange voting and rewards. Riostox ranked global No.1 for ETH trading volume.",
+
+  "qtumusdt.title": "Riostox Pro - QTUM/USDT | Trade Qtum",
+  "qtumusdt.description": "QTUM, Quantum, aims to make decentralized blockchain technology easy to deploy for enterprises. QTUM/ETH, QTUM/BTC and QTUM/USDT trading pairs are available on Riostox Cryptocurrency Exchange. Via trading QTUM. Riostox has low withdrawal fees.",
+
+  "xrpusdt.title": "Riostox Pro - XRP/USDT | Trade Ripple",
+  "xrpusdt.description": "Ripple is an open source, distributed payment protocol. XRP/BTC, XRP/ETH and XRP/USDT trading pairs are available on Riostox Cryptocurrency Exchange. Via trading XRP, you can ToM Riostox Token (AT) for further benefits such as airdrop, exchange voting and rewards. Riostox has low withdrawal fees."
+
+}

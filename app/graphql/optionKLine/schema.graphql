@@ -1,0 +1,12 @@
+type OptionPenddingKLine {
+  k: Object
+  trades: Object
+}
+type OptionKLineByCode {
+  market_code: Object
+}
+type OptionKLineByCodes {
+  result: Object
+}
+
+

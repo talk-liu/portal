@@ -1,0 +1,12 @@
+
+type Market {
+    list: [Item]
+}
+
+type Item {
+    id: String
+    name: String
+    depth_merge: Object
+    market_partition: String
+    fee: String
+}

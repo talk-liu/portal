@@ -1,0 +1,13 @@
+type Kline {
+    markets: String!
+    limit: Int
+    period: Int
+    timestamp: Int
+    to: Int
+    _t: Int
+    result: Object!
+}
+
+type SingleKLine {
+    k: Object
+}

@@ -1,0 +1,16 @@
+type OptionExerciseDetailItem {
+  id: ID
+  done_at: String
+  contract: Object
+  long_position: String
+  short_position: String
+  result: Boolean
+  amount: String
+  buy_position: String
+  sell_position: String
+  profit: String
+}
+type OptionExerciseDetail{
+  exercise_details:[OptionExerciseDetailItem]
+  meta:Object
+}

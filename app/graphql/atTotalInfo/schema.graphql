@@ -1,0 +1,9 @@
+type AtTotalInfo {
+    interval: Date
+    atPrice: String
+    atMiningCost: String
+    totalCP: String
+    friendCP: String
+    basicCP: String
+    ticketCP: String
+}

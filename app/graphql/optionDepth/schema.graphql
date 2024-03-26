@@ -1,0 +1,4 @@
+type OptionDepth {
+  asks: Object
+  bids: Object
+}

@@ -1,0 +1,30 @@
+{
+  "order": {
+    "timestamp": "Creado en",
+    "market": "Mercado",
+    "type": "Tipo",
+    "price": "Precio",
+    "volume": "Volumen",
+    "average_price": "Precio promedio",
+    "fullfilled_volume": "Completado",
+    "amount": "Cantidad completada",
+    "state": "Estado",
+    "detail": {
+      "time": "Time",
+      "price": "Price",
+      "volume": "Volume",
+      "amount": "Amount",
+      "fee": "Fee"
+    }
+  },
+
+  "trades": {
+    "created_at": "Tiempo",
+    "market": "Mercado",
+    "side": "Lado",
+    "price": "Precio",
+    "volume": "Volumen",
+    "amount": "Cantidad",
+    "fee": "Comisión"
+  }
+}

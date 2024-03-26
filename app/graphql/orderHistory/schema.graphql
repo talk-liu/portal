@@ -1,0 +1,5 @@
+type OrderHistory {
+    history: Object
+    state: String
+    per_page: Int
+}

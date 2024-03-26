@@ -1,0 +1,6 @@
+type Ticker {
+    markets: Object!
+}
+type OptionTicker{
+    markets: Object!
+}

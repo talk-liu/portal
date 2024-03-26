@@ -1,0 +1,72 @@
+type WithdrawAddress {
+    id: ID
+    currency: String
+    fund_extra: String
+    fund_uid: String
+    created_at: Date
+    updated_at: Date
+    minimum_withdraw_amount: Float
+    withdraw_fee: Float
+    readable_name: String
+    require_memo: Boolean
+}
+
+type AccountTransferHistory {
+    deposits: Object
+    meta: Object
+}
+
+type DepositHistory {
+    deposits: Object
+    meta: Object
+}
+type Applicants {
+    applicant_id: Object
+}
+type SdkTokenKyc {
+    token: Object
+}
+type CheckKyc {
+    result: Object
+}
+
+type WithdrawsHistory {
+    withdraws: Object
+    meta: Object
+}
+
+type WithdrawVerify {
+    result: Object
+}
+
+type WithdrawResend {
+    result: Object
+}
+
+type WithdrawCreate {
+    result: Object
+}
+
+type DeleteAddress {
+    result: Object
+}
+
+type CreateAddress {
+    result: Object
+}
+
+type DepositAddress {
+    result: Object
+}
+
+type Me {
+    result: Object
+}
+
+type AtVipGrade {
+    result: Object
+}
+
+type VipLevel {
+    result: Object
+}

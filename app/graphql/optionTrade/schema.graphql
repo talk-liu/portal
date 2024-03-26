@@ -1,0 +1,17 @@
+type OptionTradeItem {
+  id:Int
+  price:String
+  volume:String
+  funds:String
+  created_at:String
+  side:String
+  market:String,
+  fee:String
+  order_id:Int
+  kind:String
+  type:String
+}
+type OptionTrade {
+  meta:Object
+  trades:[OptionTradeItem]
+}

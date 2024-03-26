@@ -1,0 +1,23 @@
+type ConfirmFactor {
+    result: Object
+}
+
+type AppFactor {
+    result: Object
+}
+
+type ResetPassword {
+    result: Object
+}
+
+type DocumentSms {
+    result: Object
+}
+
+type AppFactorOtp {
+    result: Object
+}
+
+type TwoFactor {
+    result: Object
+}

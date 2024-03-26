@@ -1,0 +1,8 @@
+type OptionOtc {
+    usd_hkd: Float
+    usd_cny: Float
+    usd_rub: Float
+    usd_krw: Float
+    usd_eur: Float
+    usd_gbp: Float
+}

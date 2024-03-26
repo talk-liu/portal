@@ -1,0 +1,51 @@
+type Mutation {
+    #favoriteMarket
+    updateFavoriteMarket(market: String) : FavoriteMarket
+    deleteFavoriteMarket(market: String) : FavoriteMarket
+    bid(market: String!, volume: String!, price: String, ord_type: String, percent: String): Bid
+    ask(market: String!, volume: String!, price: String, ord_type: String, percent: String): Ask
+    cancelOrder(id: ID!): CancelOrder
+    clearOrder(side: String): [ClearOrder]
+    conditionCancel(id: Int): ConditionCancel
+    redirect(session_id:String, path: String):Redirect
+    postApiToken(label: String, otp:String, type:String):PostApiToken
+    updateApiToken(ip_whitelist:String,otp:String,type:String,id:Int):UpdateApiToken
+    forgetPassword(email:String,token:String,id_value:String,id_type:String):ForgetPassword
+    forgetPasswordCode(email:String,code:String):ForgetPasswordCode
+    forgetPsw(code:String,type:String,email:String,refresh:Boolean):ForgetPsw
+    resetForgetPassword(email:String,code:String,password:String,otp:String,type:String): ResetForgetPassword
+    deleteApiToken(id: Int):DeleteApiToken
+    optionSetAgree: OptionSetAgree
+    conditionClear: ConditionClear
+    conditionCreate(direction:String!,trigger_price:String!,volume:String!,condition_type:Int!,side:String!,market:String!,price:String!,ord_type:String!): ConditionCreate
+    createPaymentOrder(quote_id:String):CreatePaymentOrder
+    withdrawVerify(code:String, id:Int): WithdrawVerify
+    withdrawCreate(currency:String,fund_uid:String,sum:Float,memo:String,otp:String,type:String): WithdrawCreate
+    withdrawResend(id: Int): WithdrawResend
+    deleteAddress(id:Int): DeleteAddress
+    createAddress(currency:String,extra:String,uid:String): CreateAddress
+    twoFactor(type:String,refresh:Boolean):TwoFactor
+    verify(auth_action:String,type:String,email:String,country:String,phone_number:String,password:String):Verify
+    faceppVerify:FaceppVerify
+    confirmFactor(otp:String,type:String,auth_action:String,password:String):ConfirmFactor
+    appFactor(auth_action:String,otp:String,password:String):AppFactor
+    resetPassword(otp:String,type:String,old_password:String,password:String,password_confirmation:String):ResetPassword
+    documentSms(phone:String,country_code:String):DocumentSms
+    appFactorOtp:AppFactorOtp
+    proxyAuth(forwardName:String):ProxyAuth
+    document(first_name:String,last_name:String,phone:String,country_code:String,country:String,id_document_number:String,name:String,gender:Int,birth_date:Date,address:String,city:String,zipcode:String):Document
+
+    signin(email:String,password:String,id_type:String,id_value:String,token:String): Signin
+    signup(email:String,password:String,password_confirmation:String,utm_source:String,utm_medium:String,aff:String,id_type:String,id_value:String,token:String): Signup
+    twoFrontendFactor(type:String,refresh:Boolean): TwoFrontendFactor
+    authTwoFactor(email:String,otp:String,type:String):AuthTwoFactor
+    signout:Signout
+    activationEmail(email:String):ActivationEmail
+    activate(code:String):Activate
+
+    # option
+    optionCancelOrder(id:Int!):OptionCancelOrder
+    optionClearOrder(market_code:String!):[OptionClearOrder]
+    optionCreateOrder(market_code:String!,side:String!,volume:Float,price:Float,ord_type:String!):OptionCreateOrder
+    transfer(currency_code:String! , to_account:String!,from_account:String!,amount:Float!):Transfer
+}

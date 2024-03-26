@@ -1,0 +1,30 @@
+{
+  "order": {
+    "timestamp": "委託時間",
+    "market": "取引",
+    "type": "タイプ",
+    "price": "委託価格",
+    "volume": "委託数",
+    "average_price": "平均取引価格",
+    "fullfilled_volume": "取引数",
+    "amount": "取引金額",
+    "state": "状態",
+    "detail": {
+      "time": "時間",
+      "price": "取引価格",
+      "volume": "数",
+      "amount": "金額",
+      "fee": "手数料"
+    }
+  },
+
+  "trades": {
+    "created_at": "時間",
+    "market": "取引",
+    "side": "タイプ",
+    "price": "取引価格",
+    "volume": "数",
+    "amount": "金額",
+    "fee": "手数料"
+  }
+}
